@@ -9,7 +9,7 @@ This blog explores a bold conjecture that challenges traditional market paradigm
 
 **"The ideal prediction model in financial markets does not explicitly contain the time parameter, focusing instead on a space-phase-based approach."**
 
-* * *
+---
 
 ## What Does This Mean?
 
