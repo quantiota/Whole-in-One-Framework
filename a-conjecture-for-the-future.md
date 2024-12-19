@@ -1,4 +1,4 @@
-<img src="https://blog.quantiota.net/static/upload/lorentz-attractor.png" width="500">
+ ![Lorentz Attractor](./lorentz-attractor.png)
 
 # The Ideal Financial Prediction Model: A Conjecture for the Future
 
