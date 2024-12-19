@@ -26,7 +26,7 @@ Where:
 3. **Phase Velocity**:
    The rate of change of the phase angle, $\displaystyle \frac{\Delta \theta_i}{\Delta \tau_i}$, could reflect how quickly the market transitions between momentum- and acceleration-driven states.
 
----
+
 
 ## Steps to Construct the Phase Space
 
@@ -60,7 +60,7 @@ Where:
     - Time (to observe temporal evolution).
     - Price changes (to correlate strength with price dynamics).
 
----
+
 
 ##  Interpreting the Phase Space
 
@@ -96,7 +96,7 @@ Where:
 
     - High phase velocity indicates rapid transitions in market dynamics.
 
----
+
 
 ##  Applications in Market Analysis
 
@@ -110,7 +110,7 @@ Where:
 #### Risk Management
 - Sudden changes in phase magnitude or direction could be early warnings of market instability.
 
----
+
 
 ##  Implementation Framework
 
@@ -128,7 +128,7 @@ Where:
 4. Plot $k_i$ vs. $4\pi^2 \displaystyle \frac{\Delta^2 v_i}{\Delta \tau_i^2}$ in a 2D phase space.
 5. Analyze trajectories for insights.
 
----
+
 
 ##  Future Extensions
 
@@ -141,7 +141,7 @@ Where:
 3. **Integration with Other Indicators**:
     - Combine the complex MSVI with technical indicators like RSI or MACD for comprehensive analysis.
 
----
+
 
 ## Conclusion
 

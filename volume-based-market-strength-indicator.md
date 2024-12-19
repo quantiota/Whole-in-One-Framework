@@ -9,7 +9,7 @@ The financial market is a dynamic system influenced by numerous factors such as 
 
 This article introduces the **Volume-Based Market Strength Indicator (MSVI)**, a novel metric designed to measure the responsiveness of a market to changes in trading volume. By incorporating derivatives of volume, the MSVI provides insights into both the velocity and acceleration of market activity, offering a multidimensional view of market dynamics.
 
----
+
 
 ## Defining Market Strength
 
@@ -17,7 +17,7 @@ The **strength of the financial market** for an asset is its ability to efficien
 
 This concept underscores the importance of market resilience and adaptability in the face of changing external conditions. It provides a foundation for the **Volume-Based Market Strength Indicator (MSVI)**, which focuses on volume as a key driver of market strength.
 
----
+
 
 ## Conceptual Framework
 
@@ -32,7 +32,7 @@ The MSVI is formulated using **volume** as the primary driver of market activity
 
 This focus on volume differentiates the MSVI from other market strength indicators, making it particularly useful in detecting volume-driven trends and reversals.
 
----
+
 
 ## Mathematical Formulation
 
@@ -65,7 +65,7 @@ Where:
 
 These metrics allow the MSVI to capture the effects of both volume momentum $k_i$ and changes in acceleration $k_{i+}$, $k_{i-}$.
 
----
+
 
 ## Interpretation of the Indicator
 
@@ -86,7 +86,7 @@ The MSVI provides a robust framework for interpreting market dynamics:
     $k_{i+} = k_i = k_{i-}$
     Occurs when second-order volume variations are negligible $\Delta^2 v_i = 0$.
 
----
+
 
 ## Applications in Financial Analysis
 
@@ -108,7 +108,7 @@ The MSVI offers several applications in financial analysis:
 
     When combined with price changes $\Delta{Price}$, the MSVI can be used to compute cumulative metrics that correlate market strength with price movements.
 
----
+
 
 ## Limitations and Future Research
 
@@ -132,7 +132,7 @@ Future research could explore:
 - Application to diverse asset classes and market conditions.
 - Real-time implementation in high-frequency trading systems.
 
----
+
 
 ## Conclusion
 
