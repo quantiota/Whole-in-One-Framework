@@ -1,5 +1,8 @@
 <img src="https://blog.quantiota.net/static/upload/lorentz-attractor.png" width="500">
 
+# The Ideal Financial Prediction Model: A Conjecture for the Future
+
+
 Financial markets are a playground of complexity, unpredictability, and potential. For decades, time-series analysis has dominated financial modeling, with analysts and quants relying on the time parameter to make sense of price movements, trends, and volatility. But what if the time parameter is not essential to building the ideal prediction model?
 
 This blog explores a bold conjecture that challenges traditional market paradigms:
