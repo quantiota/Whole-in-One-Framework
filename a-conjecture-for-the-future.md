@@ -9,7 +9,7 @@ This blog explores a bold conjecture that challenges traditional market paradigm
 
 **"The ideal prediction model in financial markets does not explicitly contain the time parameter, focusing instead on a space-phase-based approach."**
 
----
+
 
 ## What Does This Mean?
 
@@ -19,7 +19,6 @@ For example:
 
 *   Instead of asking, _"What will the price of an asset be at time t+1?"_, this approach asks, _"What state is the market in, and how is this state likely to evolve?"_
 
-* * *
 
 ## The Problem with Time
 
@@ -37,7 +36,7 @@ While time is an intuitive and convenient organizing principle, it may introduce
 
     *   Relying on time as a parameter assumes consistent relationships between events across intervals, which may not hold during regime shifts or crises.
 
-* * *
+
 
 ## Why Space-Phase-Based Models?
 
@@ -64,7 +63,7 @@ A space-phase-based approach focuses on **states and relationships** rather than
 
 This conjecture builds on concepts from dynamical systems and physics, where time is often a derived variable rather than a fundamental one. Similarly, in financial markets, the evolution of prices and other variables may depend more on their current state than on specific timestamps.
 
-* * *
+
 
 ## Benefits of This Approach
 
@@ -80,7 +79,7 @@ This conjecture builds on concepts from dynamical systems and physics, where tim
 
     *   May uncover patterns and market dynamics invisible in traditional time-series analysis.
 
-* * *
+
 
 ## Applications in Financial Modeling
 
@@ -102,7 +101,7 @@ To explore this conjecture, consider the following applications:
 
     *   Build models that detect phase transitions, signaling potential shifts in volatility or liquidity.
 
-* * *
+
 
 ## Challenges and Questions
 
@@ -120,7 +119,7 @@ While promising, the space-phase-based approach faces hurdles that require furth
 
     *   How can we rigorously prove that removing the time parameter improves predictions?
 
-* * *
+
 
 ## A Call to Action: Testing the Conjecture
 
@@ -138,7 +137,7 @@ This conjecture is an invitation to rethink financial modeling. Here’s how res
 
     *   Deploy space-phase models in live markets to assess their robustness and profitability.
 
-* * *
+
 
 ## Final Thoughts
 
@@ -146,7 +145,7 @@ The idea of excluding time from financial prediction models is both radical and 
 
 As we embark on this journey, the question remains: **Could a space-phase-based model truly outperform the time-bound paradigms of the past?**
 
-* * *
+
 
 What do you think about this conjecture? Let’s discuss!
 
