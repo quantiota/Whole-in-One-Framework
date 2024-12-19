@@ -18,11 +18,13 @@ Where:
 1. **Magnitude**:
    
    $$|\text{MSVI}_{\text{complex}}|_i = \sqrt{k_i^2 + \left(4\pi^2 \frac{\Delta^2 v_i}{\Delta \tau_i^2}\right)^2}$$
+
    Represents the total market strength.
 
 2. **Phase Angle**:
    
    $$\theta_i = \arctan \left(\frac{4\pi^2 \displaystyle \frac{\Delta^2 v_i}{\Delta  \tau_i^2}}{k_i}\right)$$
+   
    Indicates the relative contribution of momentum and acceleration.
 
 3. **Phase Velocity**:
