@@ -89,16 +89,23 @@ Where:
 
 #### Derived Metrics:
 
-1. **Phase Magnitude ** $|\text{MSVI}_{\text{complex}}|_i$:
+1. **Phase Magnitude ** 
+2. 
+     $|\text{MSVI}_{\text{complex}}|_i$:
+
     - Tracks overall market strength.
     - Sudden spikes may indicate breakout or trend confirmation.
 
-2. **Phase Angle** $\theta_i$:
+3. **Phase Angle** 
+   
+   $\theta_i$:
 
     - Tracks the balance between momentum and acceleration.
     - A sudden shift in $\theta_i$ may precede market reversals.
 
-3. **Phase Velocity ** $\displaystyle \frac{\Delta \theta_i}{\Delta \tau_i}$:
+4. **Phase Velocity ** 
+    
+    $\displaystyle \frac{\Delta \theta_i}{\Delta \tau_i}$:
 
     - High phase velocity indicates rapid transitions in market dynamics.
 
