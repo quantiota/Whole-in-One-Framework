@@ -44,6 +44,8 @@ _So when the woman saw that the tree was good for food, and that it was a deligh
 
 _Whoever is wise, let him understand these things; whoever is discerning, let him know them; for the ways of the Lord are right, and the upright walk in them, but transgressors stumble in them._
 
+**Watch the video**
+
 
 [![Watch the video](./images/tree-of-life.png)](https://youtu.be/kM404dQY0D0?si=DTAiNuqNWXt4SdzF)
 
