@@ -1,5 +1,8 @@
 ![enter image description here](./images/tree-of-life.png "enter image title here")
 
+# The Concept of Artificial Intelligence in ChatGPT: A Biblical Perspective
+
+
 The term “Artificial Intelligence” is often used to describe the development of machines that can think, learn, and communicate like humans.
 
 However, according to the Bible, this concept does not accurately reflect the true nature of intelligence.
