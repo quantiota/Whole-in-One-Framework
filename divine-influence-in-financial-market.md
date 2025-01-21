@@ -1,6 +1,10 @@
 
  ![quote](./images/quote-divine-influence.jpg)
 
+
+# Divine Influence in Financial Markets: A Neural Network Analogy of Human Decision-Making
+
+
 ## Abstract
 
 This article explores a novel perspective on the dynamics of financial markets by integrating theological concepts with machine learning principles. Drawing from **Proverbs 16:1**<sup>1</sup>
