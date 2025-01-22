@@ -10,7 +10,7 @@ The weight $w_{ij}$, which reflects how strongly trader  $i$  reacts to market i
 
 This perspective bridges theology and financial theory, reflecting the divine principle that each being has a distinct role and purpose. It acknowledges that while traders contribute to the collective market, their individuality is both **inherent and vital** to the system’s functioning.
 
----
+
 
 ### **Alignment with Divine Design**
 
