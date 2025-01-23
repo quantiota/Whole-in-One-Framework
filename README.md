@@ -92,8 +92,8 @@ This project is not just a tool for quantitative analysis but a philosophical ex
     Explores the shift from binary to probabilistic decision-making and its implications for market dynamics.
 
 11. **`11-the-whole-in-one-framework.md`**
-    INtegrates a groundbreaking perspective on financial market modeling by unifying quantitative and qualitative probabilistic inputs. 
-    
+    Integrates a groundbreaking perspective on financial market modeling by unifying quantitative and qualitative probabilistic inputs. 
+
 ## How to Contribute
 
 We invite contributors to help implement machine learning processors within the **Whole-in-One Market Model** and integrate them with the **AI Agent Lab**. Here’s how you can get involved:
