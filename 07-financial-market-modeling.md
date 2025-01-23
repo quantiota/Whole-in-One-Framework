@@ -1,6 +1,6 @@
 ![Probability](https://blog.quantiota.ai/static/upload/probability.jpg "enter image title here")
 
-# The Trader-as-a-Neuron Framework and the Time-Agnostic Conjecture in Financial Markets
+# Financial Market Modeling within the "Trader-as-a-Neuron" Framework
 
 ## Abstract
 
