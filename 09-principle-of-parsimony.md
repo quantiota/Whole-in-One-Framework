@@ -1,5 +1,6 @@
 ![Probability Phase Space](https://blog.quantiota.ai/static/upload/parsimony.jpg "enter image title here")
 
+# Principle Of Parsimony
 
 This [framework ](https://blog.quantiota.ai/page/12/the-trader-as-a-neuron-framework-and-the-time-agnostic-conjecture-in-financial-markets/)aligns beautifully with the **principle of parsimony**, often referred to as **Occam’s Razor**, which suggests that among competing hypotheses, the one with the fewest assumptions should be selected.
 

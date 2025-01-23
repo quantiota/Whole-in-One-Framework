@@ -1,4 +1,7 @@
 ![Probability Phase Space](https://blog.quantiota.ai/static/upload/trader-phase-space.jpg "enter image title here")
+
+# The Trader-as-a-Neuron Framework and the Time-Agnostic Conjecture in Financial Markets
+
 ## Abstract
 
 This article merges two groundbreaking ideas: the **[Trader-as-a-Neuron Framework](https://blog.quantiota.ai/page/9/the-governing-equation-of-financial-markets-a-unified-framework/)**, which models financial market dynamics using neural network analogies, and the **[Time-Agnostic Conjecture](https://blog.quantiota.ai/page/1/the-ideal-financial-prediction-model-a-conjecture-for-the-future/)**, which challenges traditional time-series forecasting by proposing a space-phase-based representation of markets. Together, these ideas offer a unified framework for understanding and modeling market behavior, focusing on relationships and states rather than explicit temporal dependencies. By integrating the trader’s decision-making process with the multidimensional market state, this approach not only simplifies complexity but also unveils deeper insights into the dynamics of market prediction.

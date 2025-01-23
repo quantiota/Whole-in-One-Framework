@@ -1,5 +1,9 @@
 ![Human Decison](https://blog.quantiota.ai/static/upload/human-decision.jpg "enter image title here")
 
+# Trader's Inherent Decision Weight : A Unique Interpretation
+
+## Introduction
+
 In classical neural networks, neurons are abstract and indistinguishable, functioning as generic computational units. This abstraction emphasizes collective behavior while ignoring individuality. However, the framework presented [here](https://blog.quantiota.ai/page/9/the-governing-equation-of-financial-markets-a-unified-framework/) recognizes each trader (analogous to a neuron) as a **unique creation**, aligning with the theological understanding that each individual is distinctive and purposeful in the eyes of God.
 
 The weight $w_{ij}$, which reflects how strongly trader  $i$  reacts to market input $x_j$, embodies:
@@ -12,7 +16,7 @@ This perspective bridges theology and financial theory, reflecting the divine pr
 
 
 
-### **Alignment with Divine Design**
+## **Alignment with Divine Design**
 
 The theological implication is profound: as God cherishes the uniqueness of every creation, this framework mirrors that belief by valuing the individuality of each trader within the collective. This resonates with the spiritual understanding that every action, decision, and influence is part of a greater, purposeful design.
 

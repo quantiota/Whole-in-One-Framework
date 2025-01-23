@@ -1,4 +1,7 @@
 ![Probability](https://blog.quantiota.ai/static/upload/probability.jpg "enter image title here")
+
+# The Trader-as-a-Neuron Framework and the Time-Agnostic Conjecture in Financial Markets
+
 ## Abstract
 
 The transformation of raw market indicators into **trend probabilities** is not just an abstraction—it is a fundamental shift that aligns perfectly with the **[Trader-as-a-Neuron Framework](https://blog.quantiota.ai/page/9/the-governing-equation-of-financial-markets-a-unified-framework/)**. Unlike traditional approaches, which rely on raw indicator values, this method offers a natural fit for conceptualizing traders as decision-making nodes within a neural network. By leveraging probabilistic inputs, this framework encapsulates the multidimensional nature of market dynamics, reflecting rationality, emotion, and divine guidance. This approach simplifies financial modeling while staying deeply aligned with the unique interpretation of traders as neurons influenced by environmental, emotional, and spiritual factors.

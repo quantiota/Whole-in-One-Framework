@@ -1,5 +1,7 @@
 ![Probabilistic Framework](https://blog.quantiota.ai/static/upload/probabilistic-framework.jpg "enter image title here")
 
+# The Probabilistic Framework
+
 ## Why The Trader-as-a-Neuron Framework Is So Difficult to Discover
 
 ### **1. Binary Decisions in Real-World Trading**:
