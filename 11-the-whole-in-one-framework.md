@@ -18,7 +18,7 @@ The **Whole-in-One Framework** challenges this conventional approach by introduc
 The governing equation for the framework is:
 
 $$
-D_i = f\left(\sum_{j} (w_{ij} + G_{ij}) \cdot x_j + b_i\right)
+\large{D_i = f\left(\sum_{j} (w_{ij} + G_{ij}) \cdot x_j + b_i\right)}
 $$
 
 Where:
