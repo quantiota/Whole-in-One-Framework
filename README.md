@@ -92,6 +92,7 @@ This project is not just a tool for quantitative analysis but a philosophical ex
     Explores the shift from binary to probabilistic decision-making and its implications for market dynamics.
 
 11. **`11-the-whole-in-one-framework.md`**:
+ 
  Integrates a groundbreaking perspective on financial  market modeling by unifying quantitative and qualitative probabilistic inputs. 
 
 ## How to Contribute
