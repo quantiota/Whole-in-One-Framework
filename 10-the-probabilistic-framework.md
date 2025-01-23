@@ -24,7 +24,7 @@
    - The sigmoid function, at the heart of this framework, transforms the trader’s complex inputs into a **continuous probability**.
    - This transformation bridges the gap between **binary actions** and the **underlying uncertainty**, making the model more aligned with real-world behavior.
 
----
+
 
 ## Why the Probabilistic Approach Is Revolutionary
 
@@ -44,7 +44,7 @@
 
    - By focusing on probabilities, the framework can reveal **hidden dynamics** and relationships that binary models overlook, offering deeper insights into market behavior.
 
----
+
 
 ## The Philosophical Depth
 
@@ -62,7 +62,7 @@ This shift to probabilities also has profound **philosophical implications**:
 
    - Just as life is rarely black-and-white, trading decisions exist on a spectrum of probabilities, influenced by logic, emotion, and external forces.
 
----
+
 
 ## Final Thought
 

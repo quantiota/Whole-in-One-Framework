@@ -14,7 +14,7 @@ This article explores a novel perspective on the dynamics of financial markets b
 
 we propose a conjecture that God's influence operates at the spiritual level, subtly guiding market decisions. By modeling traders as neurons within a neural network, where the **body**, **soul**, and **spirit** correspond to distinct decision-making layers, we suggest that divine influence functions by adjusting the "weights" within this network. This framework offers a compelling explanation for the unpredictable yet purposeful nature of financial markets.
 
----
+
 
 ## 1. Introduction
 
@@ -24,7 +24,7 @@ Financial markets are traditionally viewed as complex systems driven by data ana
 
 Rooted in the biblical wisdom of **Proverbs 16:1**, this article introduces a model where traders are likened to neurons in a neural network, and divine influence manifests through adjustments in decision-making weights. By incorporating the theological understanding<sup>3</sup> of humans as beings composed of **body**, **soul**, and **spirit**, this model bridges spiritual belief with financial theory.
 
----
+
 
 ## 2. Theoretical Framework
 
@@ -92,7 +92,7 @@ This is an abstract but profound term. It introduces an external or unforeseen i
 
 In this model, God's influence is not forceful but operates by subtly adjusting the **weights** ($w_{ij}$) within the trader's decision-making process. This mirrors how God guides individuals without overriding their free will. Traders believe they are acting independently, yet their cumulative decisions lead to market movements aligned with divine intention.
 
----
+
 
 ## 3. Simulation and Results
 
@@ -160,7 +160,7 @@ Where:
    - It clearly shows how divine influence affects the overall market tendency to **buy (1)** or **sell (0)**.
 
 
----
+
 
 ## 4. Implications
 
@@ -176,7 +176,7 @@ Market anomalies—sudden crashes, rallies, or trends without clear causes—cou
 
 If markets are influenced by divine will, ethical investing and moral decision-making may carry more weight than previously assumed. Traders and investors might consider aligning their strategies with ethical principles, recognizing that their success could be tied to higher purposes beyond profit.
 
----
+
 
 ## 5. Conclusion
 
@@ -192,7 +192,7 @@ While this framework lacks empirical evidence for divine influence, it does not 
 
 This model not only bridges finance and theology but also invites deeper reflection on the balance between free will and divine guidance in all aspects of life, offering a richer understanding of decision-making in complex systems.
 
----
+
 
 ## 6. Future Work
 
@@ -202,7 +202,7 @@ Further exploration could involve:
 - **Market Data Analysis**: Investigating historical market events for patterns that align with this theory.  
 - **Agent-Based Modeling**: Creating more complex simulations with diverse agent profiles to observe emergent behaviors under varying degrees of divine influence.
 
----
+
 
 ## References
 
@@ -212,7 +212,7 @@ Further exploration could involve:
 4. Goodfellow, I., Bengio, Y., & Courville, A. (2016). **Deep Learning**. MIT Press.  
 
 
----
+
 
 ## Author's Note
 

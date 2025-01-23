@@ -55,7 +55,7 @@ A space-phase-based approach focuses on **states and relationships** rather than
 
     *   By removing time, models can focus on intrinsic variables like price, volume, and volatility, reducing complexity and overfitting.
 
-* * *
+
 
 ## The Conjecture: Formalized
 

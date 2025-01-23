@@ -4,7 +4,7 @@
 
 Traditional financial models often focus on predicting future asset prices, relying on time series forecasting and technical indicators. However, predicting exact price movements can be unreliable due to market complexity and inherent randomness. This article introduces a novel framework for defining and computing the **probability of market trends**, offering a more flexible and realistic target for machine learning models. By using moving averages and a sigmoid transformation, we convert market dynamics into a probabilistic trend signal, bridging technical analysis with modern data-driven models. This probability will also serve as the foundational target for machine learning models developed to explore the influence of **divine influence** in financial markets.
 
----
+
 
 ## 1. Introduction
 
@@ -12,7 +12,7 @@ Machine learning (ML) models in financial markets typically focus on forecasting
 
 This article presents a systematic method to compute trend probabilities using price data, which can serve as a target variable in supervised ML models for market prediction. Additionally, this probability will be integrated into machine learning models designed to capture how **divine influence** could subtly guide market behaviors.
 
----
+
 
 ## 2. Methodology for Computing Trend Probability
 
@@ -74,7 +74,7 @@ Where:
 - $ \sigma $ is the sigmoid function.
 - $ k $ is a scaling factor controlling sensitivity.
 
----
+
 
 ## 3. Python Implementation and Visualization
 
@@ -83,7 +83,7 @@ Where:
 ![Probability Distribution](./images/probability-distribution.png "enter image title here")
 
 
----
+
 
 ## 4. Integration with Machine Learning Models
 
@@ -98,7 +98,7 @@ In this framework, each trader is conceptualized as a **neuron** in a neural net
 
 Using probabilities as inputs provides a more flexible and realistic representation of human decision-making, as it reflects the inherent uncertainties and nuances in trading behavior. This abstraction not only strengthens the model's alignment with real-world market dynamics but also supports the hypothesis that traders act as decision nodes influenced by both market-driven factors and external adjustments, such as divine influence.
 
----
+
 
 ## 5. Conclusion
 
