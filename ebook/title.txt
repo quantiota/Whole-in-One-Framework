@@ -1,13 +1,13 @@
 ---
 title:
 - type: main
-  text: MICROWAVE WATER HEATER
+  text: WHOLE IN ONE FRAMEWORK
 - type: subtitle
-  text: Design Guides for Engineers & Students
+  text: Redefining Financial Market Modeling
 creator:
 - role: author
   text: Dr Bouarfa Mahi
-rights: © 2024 Dr Bouarfa Mahi, CC BY-NC-ND
+rights: © 2025 Dr Bouarfa Mahi, CC BY-NC-ND
 ibooks:
   version: 1.0.0
 ...
