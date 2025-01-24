@@ -1,4 +1,4 @@
-![enter image description here](./images/lorentz-attractor.png "enter image title here")
+![enter image description here](./images/neural-network.png "enter image title here")
 
 # The Governing Equation of Financial Markets: A Unified Framework
 
