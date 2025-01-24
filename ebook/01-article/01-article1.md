@@ -1,4 +1,4 @@
- ![Lorentz Attractor](./figures/lorentz-attractor.png)
+ ![Lorentz Attractor](figures/lorentz-attractor.png)
 
 # The Ideal Financial Prediction Model: A Conjecture for the Future
 

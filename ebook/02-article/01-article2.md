@@ -1,5 +1,5 @@
 
- ![quote](./figures/quote-divine-influence.jpg)
+ ![quote](figures/quote-divine-influence.jpg)
 
 
 # Divine Influence in Financial Markets: A Neural Network Analogy of Human Decision-Making
@@ -128,7 +128,7 @@ The simulation compared two scenarios:
 Here is the generated plot visualizing the impact of **Divine Influence** on trader decisions:
 
 
- ![Trader Decision](./figures/trader_decisions_with_divine_influence.png)
+ ![Trader Decision](figures/trader_decisions_with_divine_influence.png)
 
 - **Gold Bars:** Show decision probabilities **without divine influence**, reflecting more scattered and random decision-making.  
 - **Dark Orange Bars:** Represent decision probabilities **with divine influence**, showing a more structured and decisive trend toward buying or selling.
@@ -152,7 +152,7 @@ Where:
 - If $ D_{\text{final}} > 0.5$, the model **buys**; if $D_{\text{final}} \leq 0.5 $, it **sells**.
 
 
- ![Aggregated Decision](./figures/final-aggregated-decision-probability.png)
+ ![Aggregated Decision](figures/final-aggregated-decision-probability.png)
 
 
  **Final Aggregated Decision Probability:**  

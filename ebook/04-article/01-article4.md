@@ -1,4 +1,4 @@
-![enter image description here](./figures/stock-market-chaos-stockcake.jpg "enter image title here")
+![enter image description here](figures/stock-market-chaos-stockcake.jpg "enter image title here")
 
 # Conjecture 2: The Absence of Divine Influence Leads to Chaos in Financial Markets
 
