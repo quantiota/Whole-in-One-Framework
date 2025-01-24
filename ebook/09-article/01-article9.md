@@ -1,4 +1,4 @@
-![Probability Phase Space](./images/parsimony.jpg "enter image title here")
+![Probability Phase Space](./figures/parsimony.jpg "enter image title here")
 
 # Principle Of Parsimony
 
