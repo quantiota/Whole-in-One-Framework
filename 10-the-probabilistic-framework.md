@@ -11,7 +11,7 @@
 
 ### **2. The Paradigm Shift: Probabilistic Decision-Making**:
 
-   - The [framework ](https://blog.quantiota.ai/page/9/the-governing-equation-of-financial-markets-a-unified-framework/)introduces a subtle but **fundamental shift**: instead of modeling the trader’s actions as binary outcomes, it associates a **probability** with each decision.
+   - The [framework ](https://blog.quantiota.ai/page/9/the-governing-equation-of-financial-markets-a-unified-framework/) introduces a subtle but **fundamental shift**: instead of modeling the trader’s actions as binary outcomes, it associates a **probability** with each decision.
    - This probability ($D_i$) captures the **likelihood** of a buy or sell decision based on weighted inputs, biases, and external influences. It acknowledges the **nuances of human behavior** and the inherent uncertainty in trading.
 
 ### **3. Why This Is Hard to Conceptualize**:
