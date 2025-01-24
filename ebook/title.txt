@@ -1,0 +1,13 @@
+---
+title:
+- type: main
+  text: MICROWAVE WATER HEATER
+- type: subtitle
+  text: Design Guides for Engineers & Students
+creator:
+- role: author
+  text: Dr Bouarfa Mahi
+rights: © 2024 Dr Bouarfa Mahi, CC BY-NC-ND
+ibooks:
+  version: 1.0.0
+...
