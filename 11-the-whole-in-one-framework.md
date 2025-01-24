@@ -1,4 +1,4 @@
-![Neural Network](https://blog.quantiota.ai/static/upload/neural-network-lite.png "enter image title here")
+![Neural Network](./images/neural-network-lite.png "enter image title here")
 # The Whole-in-One Framework: Financial Market Modeling with Probabilistic Inputs
 
 ## Abstract

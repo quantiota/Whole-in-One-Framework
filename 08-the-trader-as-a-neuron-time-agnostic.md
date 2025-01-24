@@ -1,4 +1,4 @@
-![Probability Phase Space](https://blog.quantiota.ai/static/upload/trader-phase-space.jpg "enter image title here")
+![Probability Phase Space](./images/trader-phase-space.jpg "enter image title here")
 
 # The Trader-as-a-Neuron Framework and the Time-Agnostic Conjecture in Financial Markets
 

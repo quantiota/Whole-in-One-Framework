@@ -1,4 +1,4 @@
-![Human Decison](https://blog.quantiota.ai/static/upload/human-decision.jpg "enter image title here")
+![Human Decison](./images/human-decision.jpg "enter image title here")
 
 # Trader's Inherent Decision Weight : A Unique Interpretation
 

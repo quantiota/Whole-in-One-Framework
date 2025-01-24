@@ -1,4 +1,4 @@
-![Probabilistic Framework](https://blog.quantiota.ai/static/upload/probabilistic-framework.jpg "enter image title here")
+![Probabilistic Framework](./images/probabilistic-framework.jpg "enter image title here")
 
 # The Probabilistic Framework
 

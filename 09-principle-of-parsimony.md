@@ -1,4 +1,4 @@
-![Probability Phase Space](https://blog.quantiota.ai/static/upload/parsimony.jpg "enter image title here")
+![Probability Phase Space](./images/parsimony.jpg "enter image title here")
 
 # Principle Of Parsimony
 

@@ -1,4 +1,4 @@
-![Probability](https://blog.quantiota.ai/static/upload/probability.jpg "enter image title here")
+![Probability](./images/probability.jpg "enter image title here")
 
 # Financial Market Modeling within the "Trader-as-a-Neuron" Framework
 
