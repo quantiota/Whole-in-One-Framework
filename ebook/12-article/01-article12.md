@@ -1,5 +1,8 @@
 ![Neural Network](https://blog.quantiota.ai/static/upload/david-hilbert.jpg "enter image title here")
 
+
+# The Whole-in-One Framework: A Germ of Generality in Financial Markets
+
 ## Abstract
 
 > **"The art of doing mathematics consists in finding that special case which contains all the germs of generality."**  
