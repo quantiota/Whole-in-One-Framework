@@ -1,4 +1,4 @@
-![Probabilistic Framework](figures/probabilistic-framework.jpg "enter image title here")
+![Probabilistic Framework](../figures/probabilistic-framework.jpg "enter image title here")
 
 # The Probabilistic Framework
 

@@ -1,4 +1,4 @@
-![enter image description here](figures/msvi.png "enter image title here")
+![enter image description here](../figures/msvi.png "enter image title here")
 # Defining and Computing Trend Probability for Machine Learning Models in Financial Markets
 ## Abstract
 
@@ -80,7 +80,7 @@ Where:
 
 [Here](https://github.com/quantiota/Blog-Articles/blob/main/scripts/trend-probability.py) is the complete version of the Python code with a single threshold of 0.5 for deciding between Buy and Sell signals.
 
-![Probability Distribution](figures/probability-distribution.png "enter image title here")
+![Probability Distribution](../figures/probability-distribution.png "enter image title here")
 
 
 

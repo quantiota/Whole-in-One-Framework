@@ -1,4 +1,4 @@
-![Neural Network](figures/neural-network-lite.png "enter image title here")
+![Neural Network](../figures/neural-network-lite.png "enter image title here")
 # The Whole-in-One Framework: Financial Market Modeling with Probabilistic Inputs
 
 ## Abstract

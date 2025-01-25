@@ -1,4 +1,4 @@
-![Human Decison](figures/human-decision.jpg "enter image title here")
+![Human Decison](../figures/human-decision.jpg "enter image title here")
 
 # Trader's Inherent Decision Weight : A Unique Interpretation
 

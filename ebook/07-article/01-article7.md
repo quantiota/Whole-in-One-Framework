@@ -1,4 +1,4 @@
-![Probability](figures/probability.jpg "enter image title here")
+![Probability](../figures/probability.jpg "enter image title here")
 
 # Financial Market Modeling within the "Trader-as-a-Neuron" Framework
 
