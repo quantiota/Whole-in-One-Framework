@@ -75,7 +75,7 @@ This is an abstract but profound term. It introduces an external or unforeseen i
 4. **Emotional Bias $b_{i}$**  
    This term models the emotional state of the trader, acknowledging that emotions like fear, greed, or overconfidence can skew decisions. Connecting this to the *soul* emphasizes the emotional and psychological depth of human decision-making.
 
-5. **Activation Function$f$**  
+5. **Activation Function $f$**  
    A nonlinear function like the sigmoid $ f(z) = \displaystyle \frac{1}{1 + e^{-z}} $ converts the weighted sum into a probabilistic output between 0 and 1, indicating a tendency toward buying (1) or selling (0).  
 
 ### **2.3. Interpretation**
