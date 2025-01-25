@@ -1,7 +1,7 @@
 ---
 title:
 - type: main
-  text: WHOLE IN ONE FRAMEWORK
+  text: QUANTITATIVE FINANCE: THE WHOLE IN ONE FRAMEWORK
 - type: subtitle
   text: Redefining Financial Market Modeling
 creator:
