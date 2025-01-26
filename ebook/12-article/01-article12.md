@@ -1,4 +1,4 @@
-![Neural Network](https://blog.quantiota.ai/static/upload/david-hilbert.jpg "enter image title here")
+![Neural Network](../figures/david-hilbert.jpg "enter image title here")
 
 
 # The Whole-in-One Framework: A Germ of Generality in Financial Markets
