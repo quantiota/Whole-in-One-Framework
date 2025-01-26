@@ -1,4 +1,4 @@
-![Global Neural Network](../images/global-neural-network.jpg "enter image title here")
+![Global Neural Network](./images/global-neural-network.jpg "enter image title here")
 
 # The Global Neural Network: Humanity's Infinite Learning Process
 
