@@ -25,7 +25,7 @@ $$D_i = \sigma \left(\sum_{j} (w_{ij} + G_{ij}) \cdot x_j + b_i \right)$$
 Where: 
 
 - **($D_i$):** The probability of an individual’s decision, representing the likelihood of specific actions (e.g., Buy/Sell, Agree/Disagree).  
-- **($x_j$):** Inputs that influence decisions, such as external events, data, or personal experiences.  
+- **($x_j$):** Inputs that influence decisions, such as data or external events.   
 - **($w_{ij}$):** Weights reflecting rational analysis or past experiences.  
 - **($b_i$):** Biases representing emotional or psychological factors.  
 - **($G_{ij}$):** Divine influence, subtly guiding decisions without overriding free will.  
