@@ -1,9 +1,9 @@
 ---
 title:
 - type: main
-  text: QUANTITATIVE FINANCE: THE WHOLE IN ONE FRAMEWORK
+  text: THE WHOLE IN ONE FRAMEWORK
 - type: subtitle
-  text: Redefining Financial Market Modeling
+  text: From Quantitative Finance to Global Neural Network: A Journey to God's Design
 creator:
 - role: author
   text: Dr Bouarfa Mahi
