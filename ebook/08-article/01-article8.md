@@ -67,6 +67,7 @@ The trader’s decision process is inherently dynamic, influenced by changing ma
 ### 3.3. Aggregated Market Dynamics
 
 The aggregated market decision is expressed as:
+
 $$
 D = \frac{1}{N} \sum_{i=1}^N D_i
 $$
