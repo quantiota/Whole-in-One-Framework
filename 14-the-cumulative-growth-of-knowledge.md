@@ -1,4 +1,4 @@
-![Cumulative Knowledge](../images/cumulative-knowledge.jpg "enter image title here")
+![Cumulative Knowledge](./images/cumulative-knowledge.jpg "enter image title here")
 
 # The Cumulative Growth of Knowledge and the Probabilistic Nature of Human Decisions
 
@@ -59,7 +59,7 @@ In today’s interconnected world, humanity operates near the upper asymptote of
 ### 3.3. Visualization
 The Relationship Between Knowledge and Probabilistic Decisions
 
-![Knowledge](../images/knowledge-vs-probabilistic-decision.png "enter image title here")
+![Knowledge](./images/knowledge-vs-probabilistic-decision.png "enter image title here")
 
 
 ## 4. The Whole-in-One Framework: Integrating Knowledge and Decisions
