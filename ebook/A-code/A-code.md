@@ -156,9 +156,9 @@ if __name__ == "__main__":
     # Plot the results with aligned x-axis
     calculator.plot_results(results)
 
-    ```
+```
 
-## Cumulative knowledge
+##  Cumulative knowledge
 
 ```python
 
