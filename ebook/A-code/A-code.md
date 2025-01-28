@@ -157,6 +157,7 @@ if __name__ == "__main__":
     calculator.plot_results(results)
 
     ```
+
 ## Cumulative knowledge
 
 ```python
