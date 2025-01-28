@@ -58,7 +58,7 @@ In today’s interconnected world, humanity operates near the upper asymptote of
 The Relationship Between Knowledge and Probabilistic Decisions
 
 
-- ![Knowledge](./figures/knowledge-vs-probabilistic-decision.png "enter image title here")
+- ![Knowledge](../figures/knowledge-vs-probabilistic-decision.png "enter image title here")
 
 The defined eras—**Pre-Print Era**, **Print to Digital Era**, and **AI Era**—align beautifully with the major technological transitions and their impacts on knowledge accumulation and decision-making. Here's how each era's purpose connects to the framework:
 
