@@ -39,7 +39,7 @@ where:
 - **($b_i$)** represents biases (psychological, cultural effects).  
 - **($G_{ij}$ )** introduces **divine influence**, ensuring free will within a structured system.  
 
-The accumulated knowledge naturally emerges from the surface under the sigmoid curve, which is already normalized. This means knowledge accumulation follows a finite, bounded process, mirroring human decision transitions.
+
 
 The concept of knowledge here is highly abstract, and the way we interpret the "surface" under the sigmoid depends on what variable we are using as the independent parameter.
 
