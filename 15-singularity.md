@@ -47,6 +47,11 @@ $$
 K_i(t) = \int_{-\infty}^{t} D_i(\tau) d\tau
 $$
 
+$$
+K_i(t) = \int_{-\infty}^{t} \sigma \left(\sum_{j} (w_{ij} + G_{ij}) \cdot x_j + b_i \right) d\tau
+$$
+
+
 Since the total surface area of the sigmoid is finite ($k\pi$), accumulated knowledge cannot grow indefinitely, ensuring a natural saturation point.
 
 Thus, the rate of knowledge growth is directly given by the probabilistic decision function:
