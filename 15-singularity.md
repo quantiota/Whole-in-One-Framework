@@ -44,7 +44,7 @@ The accumulated knowledge naturally emerges from the surface under the sigmoid c
 The accumulated knowledge function is given by:
 
 $$
-K(t) = \int_{-\infty}^{t} D(\tau) d\tau
+K_i(t) = \int_{-\infty}^{t} D_i(\tau) d\tau
 $$
 
 Since the total surface area of the sigmoid is finite ($k\pi$), accumulated knowledge cannot grow indefinitely, ensuring a natural saturation point.
