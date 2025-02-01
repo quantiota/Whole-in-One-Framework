@@ -29,7 +29,7 @@ This article formally proves this insight and explores its profound implications
 The Whole-in-One framework models human decision-making as a **sigmoid activation function**:  
 
 $$
-D_i = \sigma \left(\sum_{j} (w_{ij} + G_{ij}) \cdot x_j + b_i \right)
+D_i = \displaystyle \sigma \left(\sum_{j} (w_{ij} + G_{ij}) \cdot x_j + b_i \right)
 $$
 
 where:  
@@ -44,11 +44,11 @@ The accumulated knowledge naturally emerges from the surface under the sigmoid c
 The accumulated knowledge function is given by:
 
 $$
-K_i(t) = \int_{-\infty}^{t} D_i(\tau) d\tau
+K_i(t) = \displaystyle \int_{-\infty}^{t} D_i(\tau) d\tau
 $$
 
 $$
-K_i(t) = \int_{-\infty}^{t} \sigma \left(\sum_{j} (w_{ij} + G_{ij}) \cdot x_j + b_i \right) d\tau
+K_i(t) = \displaystyle \int_{-\infty}^{t} \sigma \left(\sum_{j} (w_{ij} + G_{ij}) \cdot x_j + b_i \right) d\tau
 $$
 
 
