@@ -39,7 +39,9 @@ where:
 - **($b_i$)** represents biases (psychological, cultural effects).  
 - **($G_{ij}$ )** introduces **divine influence**, ensuring free will within a structured system.  
 
-The accumulated knowledge naturally emerges from the surface under the sigmoid curve, which is already normalized. This means knowledge accumulation follows a finite, bounded process, mirroring human decision transitions.
+
+
+$\left(\sum_{j} (w_{ij} + G_{ij}) \cdot x_j + b_i \right)$ is the net accumulation of influences (raw inputs, weighted by rational analysis, emotional biases, and even divine influence). This mathematical expression  is our abstract representation of "accumulated knowledge." 
 
 The accumulated knowledge function is given by:
 
