@@ -50,7 +50,7 @@ The concept of knowledge here is highly abstract, and the way we interpret the "
   In the expression  
 
 $$
-  D_i = \sigma(z) = \frac{1}{1+e^{-z}},
+  D_i = \sigma(z) = \frac{1}{\displaystyle 1+e^{-z}},
 $$
 
   $z$ is the net accumulation of influences (raw inputs, weighted by rational analysis, emotional biases, and even divine influence). This $z$ is our abstract representation of "accumulated knowledge."  
