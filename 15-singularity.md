@@ -72,7 +72,7 @@ $$
   expresses how decision probability evolves over time.
 
 - **Different Meaning of the "Surface":**  
-  In the time domain, the "surface" (or the curve $D_i(t)$) tells us about the dynamics of decision-making. It reflects not only the bounded nature of decision certainty but also the rate at which knowledge is accumulated.  
+  In the time domain, the "surface" (or the curve $D_i(t)$ tells us about the dynamics of decision-making. It reflects not only the bounded nature of decision certainty but also the rate at which knowledge is accumulated.  
   - If $z(t)$ grows linearly, $D_i(t)$ will follow a classic S-shaped curve over time.
   - If $z(t)$ accelerates (say, quadratically), the transition of $D_i(t)$ from uncertainty to certainty might be delayed initially and then occur very rapidly.
 - **Interpretation:**  
