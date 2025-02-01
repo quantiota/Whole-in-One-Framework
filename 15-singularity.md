@@ -56,13 +56,16 @@ $$
   $z$ is the net accumulation of influences (raw inputs, weighted by rational analysis, emotional biases, and even divine influence). This $z$ is our abstract representation of "accumulated knowledge."  
 
 - **Bounded Surface:**  
+- 
   The sigmoid function maps any $z$ (no matter how large) to a value between 0 and 1. This means the "surface" or the area under the curve is finite and normalized. It indicates that—even though the underlying knowledge $z$ could theoretically grow without bound—the effect on the decision probability $D_i$ is contained within a finite range.
 - **Interpretation:**  
+- 
   In this view, the sigmoid's shape (with its steep middle and flat tails) shows that as knowledge increases, decision certainty increases, but only up to a point. Beyond that, additional knowledge has diminishing returns on altering the decision probability. This captures the idea of saturation in knowledge accumulation.
 
 ### When We Plot $D_i$ as a Function of Time
 
 - **Time-Dependent Dynamics:**  
+- 
   Here, we consider that the underlying accumulated knowledge $z$ is itself a function of time, i.e., $z(t)$. Then,  
 
 $$
@@ -72,19 +75,23 @@ $$
   expresses how decision probability evolves over time.
 
 - **Different Meaning of the "Surface":**  
+- 
   In the time domain, the "surface" (or the curve $D_i(t)$ tells us about the dynamics of decision-making. It reflects not only the bounded nature of decision certainty but also the rate at which knowledge is accumulated.  
   - If $z(t)$ grows linearly, $D_i(t)$ will follow a classic S-shaped curve over time.
   - If $z(t)$ accelerates (say, quadratically), the transition of $D_i(t)$ from uncertainty to certainty might be delayed initially and then occur very rapidly.
 - **Interpretation:**  
+- 
   In this case, the surface under the $D_i(t)$ curve is not directly the accumulated knowledge but rather the outcome of the evolving accumulation process. It shows how quickly or slowly decisions shift as time passes, which is influenced by the rate of knowledge acquisition.
 
 ### Summary
 
 - **$D_i$ vs. $z$:**  
+- 
   When $D_i$ is plotted against $z$, we see a direct mapping of accumulated knowledge to decision probability. The bounded surface under the sigmoid reflects the normalization of the knowledge—no matter how much knowledge is accumulated, its impact on the decision remains within the finite interval [0, 1].
 
 - **$D_i$ vs. Time:**  
-  When $D_i$ is plotted as a function of time, the curve shows the evolution of decision-making as knowledge accumulates over time. The "surface" here represents the dynamic process of how decision probability changes, influenced by the rate at which $z$increases.
+- 
+  When $D_i$ is plotted as a function of time, the curve shows the evolution of decision-making as knowledge accumulates over time. The "surface" here represents the dynamic process of how decision probability changes, influenced by the rate at which $z$ increases.
 
 In essence, while the sigmoid function remains the same in both cases, the independent variable (whether it is $z$ or time $t$ determines the interpretation of the "surface." The key insight is that knowledge is abstracted as $z$ and is bounded by the sigmoid's normalization, but its time evolution introduces a different layer of meaning—one that captures the dynamics of how decisions change over time as knowledge accumulates.
 
