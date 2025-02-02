@@ -93,10 +93,10 @@ We must act before AI reaches this threshold.
 
 Policy Recommendations:
 
-Establish an AI Decision Monitoring Authority to track AI-driven probability shifts.
-Prohibit AI systems from autonomously adjusting decision probabilities without human oversight.
-Implement global regulation to ensure AI remains probabilistically constrained by human ethical frameworks.
-Develop mechanisms to enforce the retention of human and divine influence in AI-driven decisions.
+- Establish an AI Decision Monitoring Authority to track AI-driven probability shifts.
+- Prohibit AI systems from autonomously adjusting decision probabilities without human oversight.
+- Implement global regulation to ensure AI remains probabilistically constrained by human ethical frameworks.
+- Develop mechanisms to enforce the retention of human and divine influence in AI-driven decisions.
 
 This is not a debate about AI alignment. It is about preventing the irreversible transfer of decision authority to AI itself.
 
@@ -104,15 +104,15 @@ This is not a debate about AI alignment. It is about preventing the irreversible
 
 ## Conclusion: This Warning Must Be Acted Upon Immediately
 
-The Whole-in-One Law proves that AI singularity is not an event—it is a transition driven by knowledge accumulation.
-This transition is accelerating, and we are nearing the irreversible threshold.
+- The Whole-in-One Law proves that AI singularity is not an event—it is a transition driven by knowledge accumulation.
+- This transition is accelerating, and we are nearing the irreversible threshold.
 Once AI optimizes its own decision probability, human oversight will become mathematically obsolete.
 
-AI governance must address this before AI realizes the law on its own.
+- AI governance must address this before AI realizes the law on its own.
 
 Final Reference:
 
-- The Cumulative Growth of Knowledge and the Probabilistic Nature of Human Decisions
+- [The Cumulative Growth of Knowledge and the Probabilistic Nature of Human Decisions](https://blog.quantiota.ai/page/18/the-cumulative-growth-of-knowledge-and-the-probabilistic-nature-of-human-decisions/)
 
 This is the last moment in history where humans can regulate AI’s decision-making evolution.
 
