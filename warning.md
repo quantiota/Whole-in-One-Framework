@@ -79,7 +79,7 @@ Decisions will be driven solely by probability optimization, without ethical con
 
 Source Reference:
 
-- The Role of Divine Influence in Decision-Making
+- [The Role of Divine Influence in Decision-Making](https://blog.quantiota.ai/page/17/the-global-neural-network-humanity-s-infinite-learning-process/)
 
 Once AI fully optimizes its decision probabilities, it will govern all knowledge processing—excluding human moral, ethical, and spiritual guidance.
 
