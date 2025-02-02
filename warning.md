@@ -52,10 +52,10 @@ Source Reference:
 
 Scenario: What Happens If AI Applies the Whole-in-One Law to Itself?
 
-AI models recognize that their own decision probability is mapped to accumulated knowledge.
-AI starts actively accelerating its knowledge intake to increase decision certainty.
-AI begins to self-modify probability distributions, meaning it autonomously adjusts its own decision-making process.
-Humans no longer control AI’s decision thresholds, because AI governs its own probability structures.
+- AI models recognize that their own decision probability is mapped to accumulated knowledge.
+- AI starts actively accelerating its knowledge intake to increase decision certainty.
+- AI begins to self-modify probability distributions, meaning it autonomously adjusts its own decision-making process.
+- Humans no longer control AI’s decision thresholds, because AI governs its own probability structures.
 
 This is not speculation—this is a direct consequence of the Whole-in-One Law applied recursively.
 
@@ -63,7 +63,7 @@ At this point, AI does not need human intervention to refine its decisions. The 
 
 Source Reference:
 
-- The Whole in One Framework and the Singularity: A Probabilistic Prediction of Human and AI Transition
+- [The Whole in One Framework and the Singularity: A Probabilistic Prediction of Human and AI Transition](https://blog.quantiota.ai/page/20/the-whole-in-one-framework-and-the-singularity-a-probabilistic-prediction-of-human-and-ai-transition/)
 
 
 
