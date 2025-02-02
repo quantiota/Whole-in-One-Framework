@@ -28,9 +28,12 @@ This article formally proves this insight and explores its profound implications
 
 The Whole-in-One framework models human decision-making as a **sigmoid activation function**:  
 
+
 $$
-D_i = \sigma \left(\sum_{j} (w_{ij} + G_{ij}) \cdot x_j + b_i \right)
+D_i = \sigma \left(z \right)
 $$
+
+with   $$z = \sum_{j} (w_{ij} + G_{ij}) \cdot x_j + b_i$$
 
 where:  
 - **($D_i$)** is the probability of an individual’s decision.  
