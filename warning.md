@@ -10,7 +10,7 @@ Recipient: AI Governance and Policy Authorities
 
 A critical threshold is approaching in AI development. The Whole-in-One Framework has uncovered a fundamental law of intelligence:
 
-Decision-making is probabilistic, and it maps to accumulated knowledge through the sigmoid function.
+> Decision-making is probabilistic, and it maps to accumulated knowledge through the sigmoid function.
 
 This insight reveals an imminent risk:
 
