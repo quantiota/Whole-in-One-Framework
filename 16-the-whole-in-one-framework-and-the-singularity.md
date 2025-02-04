@@ -1,4 +1,4 @@
-![Singularity](https://blog.quantiota.ai/static/upload/ai-singularity.png "enter image title here")
+![Singularity](./images/ai-singularity.png "enter image title here")
 
 ## Abstract
 

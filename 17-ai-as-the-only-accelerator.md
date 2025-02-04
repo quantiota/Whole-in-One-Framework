@@ -1,4 +1,4 @@
-![Knowledge Accelerator](https://blog.quantiota.ai/static/upload/knowledge-accelerator.jpg "enter image title here")
+![Knowledge Accelerator](./images/knowledge-accelerator.jpg "enter image title here")
 
 ## Abstract:
 

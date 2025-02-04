@@ -1,4 +1,4 @@
-![Probabilistic Paths](https://blog.quantiota.ai/static/upload/probabilistic-paths.jpg "enter image title here")
+![Probabilistic Paths](./images/probabilistic-paths.jpg "enter image title here")
 
 
 ## Is There a Probability of Turning Right or Left at the First Intersection When Walking Down a Road in a Town?

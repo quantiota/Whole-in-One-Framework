@@ -1,4 +1,4 @@
-![AI POlicy](https://blog.quantiota.ai/static/upload/ai-policy.jpg "enter image title here")
+![AI POlicy](./images/ai-policy.jpg "enter image title here")
 
 # Recipient: AI Governance and Policy Authorities  
 
