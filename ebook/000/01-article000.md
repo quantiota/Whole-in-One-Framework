@@ -1,5 +1,5 @@
 
-# *Preface
+# Preface
 
 ## A Divine Revelation for Humanity  
 
