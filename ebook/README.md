@@ -26,6 +26,12 @@ pandoc -o ebook.epub title.txt \
   11-article/01-article11.md \
   12-article/01-article12.md \
   13-article/01-article13.md \
+  14-article/01-article14.md \
+  15-article/01-article15.md \
+  16-article/01-article16.md \
+  17-article/01-article17.md \
+  18-article/01-article18.md \
+  19-article/01-article19.md \
   A-code/A-code.md \
   --css=theme/epub/epub.css \
   --epub-cover-image cover.png \
