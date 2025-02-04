@@ -84,7 +84,7 @@ This is an abstract but profound term. It introduces an external or unforeseen i
 - The activation function $f$ converts the complex interplay of logic, intuition, and emotion into a binary action: Buy or Sell.
 
 ### **2.4. Potential Applications**
-- This model could be simulated in a trading agent that incorporates not only data-driven algorithms but also randomness or heuristic adjustments (to model $G_{ij}$) and emotion-driven biases (for $ b_i $).  
+- This model could be simulated in a trading agent that incorporates not only data-driven algorithms but also randomness or heuristic adjustments (to model $G_{ij}$) and emotion-driven biases (for $b_i$).  
 - It introduces a hybrid framework blending deterministic machine learning with stochastic or behavioral components, which can be highly relevant in modeling real-world trader behavior.
 
 
