@@ -1,4 +1,5 @@
 ![Singularity](../figures/ai-singularity.png "enter image title here")
+# The Whole in One Framework and the Singularity: A Probabilistic Prediction of Human and AI Transition
 
 ## Abstract
 

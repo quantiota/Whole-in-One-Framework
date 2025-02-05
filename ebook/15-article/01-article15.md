@@ -1,5 +1,6 @@
 ![Probabilistic Paths](../figures/probabilistic-paths.jpg "enter image title here")
 
+# Probabilistic Pathways: Modeling Human Navigation Decisions in Urban Environments
 
 ## Is There a Probability of Turning Right or Left at the First Intersection When Walking Down a Road in a Town?
 

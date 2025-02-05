@@ -1,5 +1,8 @@
 ![Cumulative Knowledge](../figures/cumulative-knowledge.jpg "enter image title here")
 
+# The Cumulative Growth of Knowledge and the Probabilistic Nature of Human Decisions
+
+
 ## Abstract
 
 This article explores the profound correlation between the growth of cumulative human knowledge and the evolution of probabilistic decision-making, as modeled by the sigmoid function within the [Whole-in-One ](https://blog.quantiota.ai/page/17/the-global-neural-network-humanity-s-infinite-learning-process/)Framework. Since the dawn of humanity, every step forward in knowledge has refined and expanded the probabilistic nature of decisions, leading to increasingly precise and impactful outcomes. This relationship not only provides a fresh lens through which to view human history but also integrates the logistic function as a cornerstone of understanding the collective progression of humanity.
