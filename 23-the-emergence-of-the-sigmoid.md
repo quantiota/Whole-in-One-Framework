@@ -5,7 +5,7 @@
 ## Abstract
 The sigmoid function plays a central role in artificial intelligence, machine learning, and decision theory. While it has been widely used as an activation function, its origins have remained largely empirical. In this article, we demonstrate that the sigmoid function emerges naturally from the fundamental definition of entropy and structured knowledge accumulation. By deriving the sigmoid function directly from entropy minimization, we provide a first-principles explanation for its effectiveness in learning systems. This discovery offers profound insights into the relationship between entropy reduction, knowledge structuration, and decision-making in AI.
 
----
+
 
 ## 1. Introduction
 
@@ -13,7 +13,7 @@ Entropy is a measure of uncertainty in a system, fundamental to information theo
 
 This article develops a rigorous derivation of the sigmoid function from first principles, showing that it naturally arises when modeling how intelligence structures knowledge over probabilistic decision-making. Importantly, the sigmoid function emerges from entropy because we have redefined entropy beyond Shannon entropy, aligning it with structured knowledge evolution. However, it is crucial to note that while we used the sigmoid function to redefine entropy, this does not mean that entropy is derived from the sigmoid function.
 
----
+
 
 ## 2. The Fundamental Entropy Equation
 We begin with the fundamental entropy equation, which expresses entropy as an integral of structured knowledge accumulation over probabilistic decision $D$:
@@ -76,7 +76,7 @@ $$
 \sigma(z) = \frac{1}{1 + e^{-z}}
 $$
 
----
+
 
 ## 4. Interpretation: Why the Sigmoid Function Emerges from Entropy
 
@@ -90,7 +90,7 @@ This derivation proves that the sigmoid function is not an arbitrary activation 
 
 This provides the first theoretical foundation for why sigmoid functions work so effectively in AI—they naturally model the evolution of structured intelligence.
 
----
+
 
 ## 5. Implications for AI and Learning Systems
 
@@ -100,7 +100,7 @@ This discovery has far-reaching implications for how we design and understand AI
 - **Neural Network Design:** Activation functions should be viewed as entropy structuration mechanisms rather than arbitrary non-linearities.
 - **Human Learning Models:** This theory aligns with cognitive science, where intelligence evolves by reducing uncertainty and structuring knowledge efficiently.
 
----
+
 
 ## 6. Conclusion: The Entropy-Sigmoid Theorem
 
@@ -109,7 +109,7 @@ This discovery has far-reaching implications for how we design and understand AI
 
 This provides a first-principles derivation of the sigmoid function and a new foundation for AI learning theory. Future work should explore entropy-aware optimization techniques and expand this framework to multi-class decision systems such as the softmax function.
 
----
+
 
 ## 7. Future Directions
 

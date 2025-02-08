@@ -5,7 +5,7 @@
 ## Abstract
 Building upon the Whole-in-One Framework, this article explores how the rate of change of entropy ($\displaystyle \frac{dH}{dz}$) governs knowledge structuring. While previous article established that intelligence reduces entropy as it accumulates knowledge, we now take a step further: understanding how quickly entropy decreases and how this rate influences structured intelligence. This insight bridges information theory, decision-making, and the deeper role of intelligence as an active force that counteracts disorde.
 
----
+
 
 ## 1. Introduction: From Entropy Reduction to Knowledge Evolution
 In our previous article, we established that **intelligence operates by reducing entropy**—transforming uncertainty into structured knowledge. However, the critical question remains: 
@@ -15,7 +15,7 @@ In our previous article, we established that **intelligence operates by reducing
 
 This article introduces the mathematical foundations of entropy's rate of change and examines its role in structured intelligence.
 
----
+
 
 ## 2. The Mathematical Relationship Between Knowledge and Entropy Reduction
 To understand the role of entropy reduction in intelligence, we analyze its **derivative with respect to knowledge accumulation**.
@@ -92,7 +92,7 @@ The rate of entropy change explains how intelligence moves from uncertainty to s
 
 This insight could change how we design AI training—by optimizing learning phases for maximal knowledge structuring!
 
----
+
 
 ## 4. The Role of Intelligence in Shaping Knowledge Structures
 
@@ -163,7 +163,7 @@ This means intelligence does not just accumulate knowledge—it organizes it in 
    - Decisions don’t improve at a constant rate with knowledge; they sometimes jump in precision.  
    - Example: Financial markets react non-linearly to new information—minor news might have no effect, while a sudden insight shifts the entire market.
 
----
+
 
 ## 5. Conclusion: Intelligence as a Nonlinear Structuring Force
 

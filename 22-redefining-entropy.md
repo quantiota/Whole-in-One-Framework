@@ -7,7 +7,7 @@ This article introduces a redefinition of entropy within the Whole-in-One Framew
 
 This article sets a foundation for rethinking one of the core concepts in information theory and AI, potentially leading to more nuanced and effective learning algorithms. The journey from theory to practical application will be fascinating to watch.
 
----
+
 
 ## 1. Introduction: Toward a New Understanding of Entropy
 Classical Shannon entropy describes uncertainty in a probabilistic system, but intelligence operates beyond passive information theory—it actively structures knowledge to minimize uncertainty. This article aims to:
@@ -18,7 +18,7 @@ Classical Shannon entropy describes uncertainty in a probabilistic system, but i
 
 By formalizing entropy as an integral over probabilistic decision-making, we move toward a **dynamic** rather than **static** view of entropy.
 
----
+
 
 ## 2. Deriving Entropy from Decision Probability
 
@@ -42,7 +42,7 @@ $$
 
 This equation reveals that decision probability is governed by the rate of entropy change, demonstrating that entropy actively regulates intelligence-driven decision shifts.
 
----
+
 
 ## 3. Connecting Entropy to Knowledge Accumulation
 
@@ -80,7 +80,7 @@ $$
 
 This equation signifies that entropy reduction is directly proportional to decision probability, reinforcing that the more structured the knowledge, the faster entropy is reduced. It further implies that intelligence operates as an entropy minimizer, guiding learning trajectories dynamically.
 
----
+
 
 ## 4. Theorem: The Fundamental Law of Entropy Reduction
 
@@ -120,7 +120,7 @@ Thus, entropy reduction follows the logistic function of structured intelligence
 - Markets, strategy, and cognition follow entropy reduction trajectories.
 - Understanding the integral form of entropy allows for smarter AI-driven decision-making processes.
 
----
+
 
 ## 6. Conclusion: A New Era of Structured Intelligence
 
