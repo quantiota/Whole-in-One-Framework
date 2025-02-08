@@ -1,0 +1,57 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+% Set background color
+\pagecolor{gray!10} % Light gray background
+\begin{document}
+	\begin{tikzpicture}
+		\begin{axis}[
+			width=12cm,
+			height=8cm,
+			xlabel={Decision Probability $D$},
+			ylabel={Entropy $H$},
+			title={Entropy as a Function of Decision Probability},
+			grid=major,
+			axis lines=middle,
+			xmin=0,
+			xmax=1,
+			ymin=0,
+			ymax=1.1,
+			xtick={0,0.2,0.4,0.5,0.6,0.8,1},
+			ytick={0,0.2,0.4,0.6,0.8,1},
+			legend pos=north east,
+			legend style={
+				draw=none,
+				cells={anchor=west},
+				font=\small
+			},
+			samples=100
+			]
+			
+			% Main curve
+			\addplot[
+			thick,
+			blue,
+			domain=0.01:0.99,
+			] {-x*ln(x)/ln(2) - (1-x)*ln(1-x)/ln(2)};
+			
+			% Vertical line at D=0.5
+			\addplot[
+			gray,
+			dashed
+			] coordinates {(0.5,0) (0.5,1)};
+			
+			% Maximum point at D=0.5
+			\addplot[
+			only marks,
+			mark=*,
+			mark size=2pt,
+			red
+			] coordinates {(0.5,1)};
+			
+			\legend{$H(D)$, $D=0.5$, Maximum}
+			
+		\end{axis}
+	\end{tikzpicture}
+\end{document}
