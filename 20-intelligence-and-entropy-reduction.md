@@ -32,7 +32,7 @@ where:
 
 ### **2.1 Interpretation of Entropy in Decision-Making**
 
-- ![Entropy](https://blog.quantiota.ai/static/upload/entropy.png "enter image title here")
+- ![Entropy](./images/entropy.png "enter image title here")
 - **Maximum Uncertainty (H = 1 bit):** When  $D = 0.5$ , the entropy is at its highest because the decision is completely uncertain.
 - **Reducing Uncertainty:** As intelligence accumulates knowledge,  $D$  moves closer to 1 (certainty) or 0 (false certainty), decreasing entropy.
 - **Intelligence as an Anti-Entropy Force:** The shift from high entropy (uncertainty) to low entropy (certainty) is the hallmark of intelligence actively structuring and refining knowledge.

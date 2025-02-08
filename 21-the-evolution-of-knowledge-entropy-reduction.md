@@ -53,7 +53,7 @@ This equation reveals how **entropy declines as intelligence accumulates knowled
 
 The function for the rate of entropy change with respect to knowledge accumulation exhibits the following chart:
 
-- ![Entropy](https://blog.quantiota.ai/static/upload/rate-entropy.png "enter image title here")
+- ![Entropy](./images/rate-entropy.png "enter image title here")
 
 ### Clarifying the Interpretation of $\displaystyle \frac{dH}{dz}$ 
 
