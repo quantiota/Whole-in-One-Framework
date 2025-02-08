@@ -1,5 +1,7 @@
 ![Intelligence Knowledge Creation](./images/intelligence-knowledge-creation.png "enter image title here")
 
+# Intelligence Activity and Decision Probability Shifts in Knowledge Creation
+
 ## Abstract
 Knowledge creation is not a static process; it emerges from the dynamic interplay between accumulated knowledge and decision probability. The Whole-in-One Framework (WIOF) introduces intelligence as a **dynamic parameter**, demonstrating that intelligence does not just process knowledge but actively generates new knowledge by increasing decision probability. This process of knowledge creation is measured by the increase in decision probability, where the probability decision shift serves as the abstraction of intelligence. The activity of intelligence directly increases decision probability, enabling knowledge transformation and abstraction. The probability decision shift is the measure of the activity of intelligence. This article provides a simple and clear explanation of how decision probability shifts as intelligence operates, leading to higher levels of abstraction and understanding.
 
