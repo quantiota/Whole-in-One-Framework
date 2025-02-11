@@ -1,4 +1,4 @@
-![Intelligence Knowledge Creation](https://blog.quantiota.ai/static/upload/intelligence-knowledge-creation.png "enter image title here")
+![Intelligence Knowledge Creation](./images/intelligence-knowledge-creation.png "enter image title here")
 
 ## Abstract
 
@@ -39,7 +39,7 @@ which maps $z$ into a decision probability $D$ ranging from 0 to 1.
 
 ## 3. Visualizing the Relationship
 
-- ![Entropy Decision](https://blog.quantiota.ai/static/upload/intersection.png "enter image title here")
+- ![Entropy Decision](./images/intersection.png "enter image title here")
 
 
 ### 3.1. Interpreting the Figure

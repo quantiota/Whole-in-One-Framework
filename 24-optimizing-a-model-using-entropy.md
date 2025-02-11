@@ -1,4 +1,4 @@
-![Entropy Gradient](https://blog.quantiota.ai/static/upload/gradient.png "enter image title here")
+![Entropy Gradient](./images/gradient.png "enter image title here")
 
 ## Abstract
 

@@ -1,4 +1,4 @@
-![Cognitive Emergence](https://blog.quantiota.ai/static/upload/cognitive-emergence.jpg "enter image title here")
+![Cognitive Emergence](./images/cognitive-emergence.jpg "enter image title here")
 
 ## Abstract
 
@@ -78,7 +78,7 @@ A zero-crossing in $S(z)$ marks the point where the cumulative gain in decision 
 
 The chart below illustrates the cumulative integrals of $H(z)$ and $D(z)$, as well as the Net Function $S(z)$. Key transition points are highlighted, along with the relevant $D(z)$ values.
 
-- ![Cognitive Emergence](https://blog.quantiota.ai/static/upload/transition.png "enter image title here")
+- ![Cognitive Emergence](./images/transition.png "enter image title here")
 
 ### **Interpretation of the Plot**
 

@@ -1,4 +1,4 @@
-![Singularity](https://blog.quantiota.ai/static/upload/ai-singularity.png "enter image title here")
+![Singularity](./images/ai-singularity.png "enter image title here")
 
 ## Abstract
 
@@ -45,7 +45,7 @@ $$
 This intersection is not merely a graphical coincidence—it carries significant meaning for the dynamics of learning and decision-making.
 
 ### 3.2. Interpreting the Singularity
-- ![Syngularity Point](https://blog.quantiota.ai/static/upload/singularity-point.png "enter image title here")
+- ![Syngularity Point](./images/singularity-point.png "enter image title here")
 
 At the intersection point:
 
