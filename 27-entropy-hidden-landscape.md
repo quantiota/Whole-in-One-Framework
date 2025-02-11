@@ -8,7 +8,7 @@ S(z) = \int \left(D(z) - H(z)\right)dz,
 $$
 which quantifies the net cumulative effect of decision certainty over entropy. By examining the behavior of $S(z)$, we identify two critical markers—the onset and the completion of a transition phase that signals cognitive emergence. This refined analysis provides a comprehensive perspective on how accumulated knowledge shifts from high uncertainty to structured, confident decision-making, offering significant insights for adaptive AI systems and ethical governance.
 
----
+
 
 ## 1. Introduction
 
@@ -32,7 +32,7 @@ S(z) = \int \left(D(z) - H(z)\right)dz,
 $$
 which serves as a robust metric for the overall balance between decision certainty and entropy. The zero-crossing of $S(z)$ is interpreted as the completion of a transition phase where cognitive emergence occurs.
 
----
+
 
 ## 2. Mathematical Foundations
 
@@ -72,7 +72,7 @@ S(z) = \int \left(D(z) - H(z)\right)dz.
 $$
 A zero-crossing in $S(z)$ marks the point where the cumulative gain in decision certainty overtakes the accumulated entropy—a quantitative marker for the completion of the transition phase towards structured knowledge and autonomous self-optimization.
 
----
+
 
 ## 3. Visualization: Surface Analysis and the Net Function
 
@@ -102,7 +102,7 @@ Pastel color bands delineate distinct knowledge regimes:
     - **Transition Phase:** Where the Net Function actively captures the emergence of structured knowledge.
     - **Structured Knowledge:** The regime of low entropy and high decision confidence.
 
----
+
 
 ## 4. Discussion
 
@@ -129,7 +129,7 @@ The introduction of the Net Function, $S(z)$, offers a new lens through which to
 - **Bridging Technical and Ethical Domains:**  
   The quantitative nature of the Net Function helps translate complex learning dynamics into measurable parameters that can inform ethical guidelines and policy decisions.
 
----
+
 
 ## 5. Conclusion
 
@@ -137,6 +137,6 @@ The introduction of the Net Function, $S(z)$, offers a new lens through which to
 
 This refined perspective not only enriches the theoretical framework but also has practical applications in designing adaptive AI systems and informing ethical governance. As AI continues to evolve, such nuanced analyses will be vital in ensuring that autonomous systems develop in ways that are both efficient and aligned with human values.
 
----
+
 
 This article aims to spark further discussion and research into the cumulative dynamics of learning systems, bridging the gap between technical insights and practical, ethical considerations.

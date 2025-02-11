@@ -36,7 +36,7 @@ $$
 
 which describes the rate of entropy change as decision probability evolves.
 
----
+
 
 ## 3. Derivation of the Sigmoid Function from Entropy
 

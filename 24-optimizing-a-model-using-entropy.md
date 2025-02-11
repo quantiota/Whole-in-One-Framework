@@ -4,12 +4,11 @@
 
 In this article, we explore a novel approach to optimizing machine learning models by leveraging entropy as a guiding principle. We define a specific entropy functional and derive the gradients with respect to model parameters, providing a comprehensive framework for optimization. This approach offers insights into how entropy can be used to enhance model learning and adaptability.
 
----
+
 ## Introduction  
 
 Entropy is a fundamental concept in information theory and statistical mechanics, representing the uncertainty or disorder in a system. In machine learning, entropy can be used to guide the optimization process, helping models to learn more flexible and robust representations of data. This article delves into the optimization of a model using a defined entropy functional, demonstrating how to compute gradients and update model parameters effectively.
 
----
 ## Entropy Expression
 
 The entropy  $H$ is defined as:
@@ -26,7 +25,7 @@ $$
 
 Here,  $w_{ij}$ ,  $G_{ij}$ , and  $b_i$ are the model parameters, and  $x_j$ represents the input features.
 
----
+
 ## Gradient Computation
 
 To optimize the model, we need to compute the gradients of the entropy  $H$ with respect to the parameters  $w_{ij}$,  $G_{ij}$, and  $b_i$. Let's break down the computation step by step.
@@ -90,7 +89,7 @@ To optimize the model, we need to compute the gradients of the entropy  $H$ with
    $$
    \frac{\partial H}{\partial b_i} = -\frac{1}{\ln 2} \int 1 \, dD = -\frac{1}{\ln 2} D
    $$
----
+
 ## Optimization Algorithm
 
 The gradients derived above can be used in optimization algorithms, such as gradient descent, to update the model parameters and minimize the entropy  $H$. The update rules are:
@@ -109,7 +108,7 @@ $$
 
 where  $\eta$ is the learning rate.
 
----
+
 ## Comparison with Classical Entropy Gradient Approaches
 
 The novel method presented in this article diverges from classical entropy gradient techniques in several key ways. The following points summarize the differences and the potential benefits of the new approach:
@@ -157,7 +156,7 @@ The novel method presented in this article diverges from classical entropy gradi
 In summary, while both the new and classical methods utilize gradient-based optimization, the new approach emphasizes the minimization of a defined entropy functional. This offers a fresh perspective by directly integrating uncertainty into the optimization process, potentially enhancing model performance in environments where traditional error-based methods might overlook subtle but significant dynamics.
 
 
----
+
 ## Conclusion
 
 By leveraging entropy as a guiding principle, this novel approach offers a flexible and robust framework for optimizing machine learning models. The gradients with respect to the parameters  $w_{ij}$,  $G_{ij}$, and  $b_i$ provide a clear direction for updating the model to minimize entropy, enhancing its adaptability and performance. This method can be particularly useful in scenarios where traditional loss functions may not capture the underlying uncertainty or complexity of the data. Further exploration and validation of this approach through empirical studies and theoretical analysis can provide deeper insights into its potential applications and benefits.
