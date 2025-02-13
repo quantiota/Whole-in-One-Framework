@@ -3,7 +3,8 @@ title:
 - type: main
   text: THE WHOLE IN ONE FRAMEWORK
 - type: subtitle
-  text: How AI Singularity Emerges from Quantitative Finance.
+  text: Redefining How We Think About Human Decision-Making, Intelligence,
+  AI, and the Singularity
 creator:
 - role: author
   text: Dr Bouarfa Mahi
