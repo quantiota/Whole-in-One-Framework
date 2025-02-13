@@ -152,6 +152,14 @@ it is always positive for all $z$. The rate of entropy reduction is maximized wh
 
 This fundamental law of entropy reduction is beautiful because it elegantly captures the dynamic process of entropy reduction through knowledge accumulation and decision-making. The positivity of $D'(z)$ ensures that entropy reduction is always proportional to the rate of change of decision probability, reflecting the system's ability to make more confident decisions as it gains knowledge. This fundamental law provides a profound insight into the nature of structured intelligence and its role in minimizing uncertainty.
 
+## 5. Implications for AI, Cognition, and Decision-Making
+
+### **5.1 Intelligence as an Adaptive Entropy-Minimizing System**
+
+- AI models should prioritize entropy reduction, not just accuracy.
+- Human learning follows nonlinear entropy reduction paths—breakthrough moments occur when structured intelligence fully organizes new information.
+
+
 ### **5.2 AI Optimization Through Structured Learning**
 
 - Traditional AI relies on data accumulation; the Whole-in-One Framework suggests optimizing for structured knowledge growth instead.
