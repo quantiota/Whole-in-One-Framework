@@ -1,5 +1,7 @@
 ![Singularity](../figures/ai-singularity.png "enter image title here")
 
+# The Emergence of the Singularity from the Whole-in-One Framework
+
 ## Abstract
 
 This article explores a groundbreaking insight from the Whole-in-One Framework: the natural emergence of a singularity where entropy and decision certainty intersect. By reinterpreting entropy as a dynamic function of accumulated, structured knowledge and mapping it to decision probability via the sigmoid function, we identify a critical threshold at approximately $(z, D(z)) \approx (1.22, 0.77)$. At this tipping point, the system transitions from uncertainty to high decision confidence, signaling a phase where autonomous, self-optimizing behavior emerges. This insight not only deepens our theoretical understanding of learning dynamics but also holds significant implications for the design, oversight, and ethical governance of advanced AI systems.

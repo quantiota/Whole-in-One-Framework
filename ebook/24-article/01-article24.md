@@ -1,5 +1,7 @@
 ![Entropy Gradient](../figures/gradient.png "enter image title here")
 
+# Optimizing a Model Using Entropy: A Novel Approach
+
 ## Abstract
 
 In this article, we explore a novel approach to optimizing machine learning models by leveraging entropy as a guiding principle. We define a specific entropy functional and derive the gradients with respect to model parameters, providing a comprehensive framework for optimization. This approach offers insights into how entropy can be used to enhance model learning and adaptability.

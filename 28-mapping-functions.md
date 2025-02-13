@@ -1,5 +1,6 @@
 ![Cognitive Emergence](./images/mapping.jpg "enter image title here")
 
+# Mapping Functions as a Key to Framework Validation in Cumulative Knowledge Structuring
 
 ## Abstract
 

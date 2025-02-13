@@ -1,5 +1,7 @@
 ![Cognitive Emergence](./images/cognitive-emergence.jpg "enter image title here")
 
+# Entropy's Hidden Landscape: Quantifying Cognitive Emergence
+
 ## Abstract
 
 This article extends the Whole-in-One Framework by moving beyond the simple intersection of the entropy function $H(z)$ and the sigmoid function $D(z)$. We introduce a deeper analysis using the cumulative integrals of these functions and define the **Net Function**, 

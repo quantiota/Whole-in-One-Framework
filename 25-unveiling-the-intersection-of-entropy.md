@@ -1,5 +1,7 @@
 ![Intelligence Knowledge Creation](./images/intelligence-knowledge-creation.png "enter image title here")
 
+# Unveiling the Intersection of Entropy and Decision Probability
+
 ## Abstract
 
 This article presents a precise insight from the Whole-in-One Framework: the intersection of the entropy function $H(z)$ and the sigmoid function $D(z)$. By analyzing these two functions, we reveal a critical threshold in the evolution of structured knowledge. At this intersection, the accumulated knowledge $z$ corresponds to a decision probability that marks a transition in how uncertainty is resolved. This finding not only deepens our theoretical understanding of learning dynamics but also has practical implications for designing adaptive AI systems.
