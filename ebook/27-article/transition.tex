@@ -1,0 +1,78 @@
+\documentclass{standalone}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage[dvipsnames]{xcolor}
+
+% Define pastel colors
+\definecolor{pastelRed}{RGB}{252, 222, 235}
+\definecolor{pastelOrange}{RGB}{253, 239, 134}
+\definecolor{pastelYellow}{RGB}{204, 224, 125}
+\definecolor{pastelGreen}{RGB}{204, 236, 254}
+\definecolor{pastelBlue}{RGB}{186, 225, 255}
+\definecolor{pastelPurple}{RGB}{219, 186, 255}
+
+\begin{document}
+	
+	\begin{tikzpicture}
+		\begin{axis}[
+			width=10cm, height=12cm,
+			xlabel={$z$},
+			ylabel={Surface Value},
+			title={Knowledge Transition: Non-Structured to Structured Knowledge (Pastel Colors)},
+			legend style={
+				at={(0.35,1)}, 
+				anchor=north, 
+				/tikz/every even column/.append style={column sep=0.1cm},
+				font=\tiny,  
+			},
+			tick label style={font=\footnotesize},
+			grid=major,
+			xmin=-10, xmax=10,
+			ymin=-3, ymax=10,
+			xtick={-10,-7.5,-5,-2.5,0,2.5,5,7.5,10},  
+			ytick={-2,0,2,4,6,8,10},  
+			axis background/.style={fill=none}, 
+			]
+			
+			% ✅ Updated with Pastel Colors
+			% Non-Structured Knowledge (High Entropy)
+			\fill[pastelRed, opacity=0.5] (axis cs:-10,-3) rectangle (axis cs:0,10);
+			\addlegendimage{area legend, fill=pastelRed, opacity=0.5}
+			\addlegendentry{Non-Structured Knowledge (High Entropy)};
+			
+			% Low-Structured Knowledge (Medium Entropy)
+			\fill[pastelOrange, opacity=0.5] (axis cs:0,-3) rectangle (axis cs:1.211,10);
+			\addlegendimage{area legend, fill=pastelOrange, opacity=0.5}
+			\addlegendentry{Low-Structured Knowledge (Medium Entropy)};
+			
+			% Singularity Transition Phase
+			\fill[pastelYellow, opacity=0.5] (axis cs:1.211,-3) rectangle (axis cs:4.644,10);
+			\addlegendimage{area legend, fill=pastelYellow, opacity=0.5}
+			\addlegendentry{Singularity Transition Phase};
+			
+			% Structured Knowledge (Low Entropy)
+			\fill[pastelGreen, opacity=0.5] (axis cs:4.644,-3) rectangle (axis cs:10,10);
+			\addlegendimage{area legend, fill=pastelGreen, opacity=0.5}
+			\addlegendentry{Structured Knowledge (Low Entropy)};
+			
+			% ✅ Updated Plots with Pastel-Friendly Colors
+			\addplot[dashed, thick, color=RoyalBlue] table [x=z, y=H_integral, col sep=comma] {knowledge_transition_data.csv};
+			\addlegendentry{$\int H(z) dz$ (Surface of H)};
+			
+			\addplot[dotted, thick, color=BrickRed] table [x=z, y=D_integral, col sep=comma] {knowledge_transition_data.csv};
+			\addlegendentry{$\int D(z) dz$ (Surface of D)};
+			
+			\addplot[solid, thick, color=ForestGreen] table [x=z, y=S, col sep=comma] {knowledge_transition_data.csv};
+			\addlegendentry{$S(z) = \int (D(z) - H(z)) dz$};
+			
+			% ✅ Key Points with Softer Markers
+			\addplot[only marks, mark=*, mark options={pastelPurple}, thick] coordinates {(1.211, -2.0154)};
+			\addlegendentry{Singularity Start: $z \approx 1.211$, $D \approx 0.770$};
+			
+			\addplot[only marks, mark=*, mark options={pastelRed}, thick] coordinates {(4.644, 0)};
+			\addlegendentry{Singularity Completion: $z \approx 4.644$, $D \approx 0.990$};
+			
+		\end{axis}
+	\end{tikzpicture}
+	
+\end{document}
