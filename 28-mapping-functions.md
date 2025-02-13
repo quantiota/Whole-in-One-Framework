@@ -1,5 +1,6 @@
 ![Cognitive Emergence](./images/mapping.jpg "enter image title here")
 
+
 ## Abstract
 
 In modern adaptive systems and cognitive models, knowledge is built incrementally over time. A critical challenge in validating such frameworks is ensuring that the internal representation of accumulated knowledge is both interpretable and measurable. This article presents the necessity of a mapping function that transforms raw inputs and parameters into a unified $z$-domain, where knowledge accumulates monotonically. We discuss how this mapping enables framework validation by tracking cumulative progress, identifying transition phases (via the minimum and zero-crossing of the net function), and ensuring that the learning process converges to structured, low-entropy knowledge states. Additionally, we introduce a dynamic learning rate adjustment mechanism with a fixed parameter $\delta$ that enforces each update to produce a positive yet bounded increase in $z$.
@@ -147,6 +148,6 @@ we can detect key transition phases—such as the minimum of $S(z)$ and its zero
 
 In conclusion, by employing a mapping function that directly accumulates the base outputs $y_i$ into a monotonically increasing $z$-domain and by dynamically adjusting the learning rate to enforce both monotonicity and a bounded increment (via the parameter $\delta$), we can validate the framework's core proposition: intelligence develops step by step, transforming high entropy into structured, confident knowledge. This insight lays the foundation for advanced AI systems that are both adaptive and transparent.
 
-
+---
 
 This article illustrates why mapping raw inputs and parameters into a $z$-domain is essential for validating the framework and tracking the cumulative structuring of knowledge. The resulting interpretability, measurable transition markers, and adaptive learning mechanisms provide a solid foundation for advancing adaptive AI systems.
