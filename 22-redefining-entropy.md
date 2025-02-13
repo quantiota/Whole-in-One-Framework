@@ -1,6 +1,5 @@
 ![Entropy](./images/entropy-purple.jpg "enter image title here")
 
-# Redefining Entropy in the Whole-in-One Framework
 
 ## Abstract
 This article introduces a redefinition of entropy within the Whole-in-One Framework, departing from classical Shannon entropy by linking entropy directly to structured intelligence and decision probability shifts. By deriving entropy in terms of probabilistic decision-making, we establish a deeper relationship between entropy reduction, knowledge accumulation, and intelligence structuring. The key result reveals that entropy can be expressed as an integral over decision probability, fundamentally redefining its role in intelligence and AI systems.
@@ -69,16 +68,23 @@ This integral states that entropy is not an abstract measure of uncertainty—it
 Now, taking the partial derivative with respect to knowledge accumulation:
 
 $$
-\frac{\partial H}{\partial z} = -\frac{1}{\ln 2} \int  \frac{\partial z}{\partial z} \, dD
+\frac{\partial H}{\partial z} = -\frac{1}{\ln 2} \cdot z \cdot D'(z)
 $$
 
-Since $\displaystyle \frac{\partial z}{\partial z} = 1$, we simplify:
+
+as 
+$$
+ D'(z) = D(z)(1-D(z))
+$$
+
 
 $$
-\frac{\partial H}{\partial z} = - \frac{D}{\ln 2}
+\frac{\partial H}{\partial z} = -\frac{1}{\ln 2} \cdot z \cdot D(z)(1-D(z))
 $$
 
-This equation signifies that entropy reduction is directly proportional to decision probability, reinforcing that the more structured the knowledge, the faster entropy is reduced. It further implies that intelligence operates as an entropy minimizer, guiding learning trajectories dynamically.
+
+
+This equation signifies that entropy reduction is directly proportional to accumulated knowledge, reinforcing that the more structured the knowledge, the faster entropy is reduced. It further implies that intelligence operates as an entropy minimizer, guiding learning trajectories dynamically.
 
 
 
@@ -90,7 +96,7 @@ For any knowledge-based decision system where entropy $H$ is a function of accum
 
 
 $$
-\frac{\partial H}{\partial z} = -\frac{D}{\ln 2}
+\frac{\partial H}{\partial z} = -\frac{1}{\ln 2} \cdot z \cdot D'(z)
 $$
 
 
@@ -101,7 +107,7 @@ $$
 
 Thus, entropy reduction follows the logistic function of structured intelligence, proving that knowledge accumulation naturally minimizes entropy in an AI or decision-making system.
 
----
+
 
 ## 5. Implications for AI, Cognition, and Decision-Making
 

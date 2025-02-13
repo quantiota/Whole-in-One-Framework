@@ -1,7 +1,5 @@
 ![Entropy Gradient](../figures/gradient.png "enter image title here")
 
-# Optimizing a Model Using Entropy: A Novel Approach
-
 ## Abstract
 
 In this article, we explore a novel approach to optimizing machine learning models by leveraging entropy as a guiding principle. We define a specific entropy functional and derive the gradients with respect to model parameters, providing a comprehensive framework for optimization. This approach offers insights into how entropy can be used to enhance model learning and adaptability.
@@ -10,6 +8,7 @@ In this article, we explore a novel approach to optimizing machine learning mode
 ## Introduction  
 
 Entropy is a fundamental concept in information theory and statistical mechanics, representing the uncertainty or disorder in a system. In machine learning, entropy can be used to guide the optimization process, helping models to learn more flexible and robust representations of data. This article delves into the optimization of a model using a defined entropy functional, demonstrating how to compute gradients and update model parameters effectively.
+
 
 ## Entropy Expression
 
@@ -36,9 +35,10 @@ To optimize the model, we need to compute the gradients of the entropy  $H$ with
 
 1. **Differentiate  H with Respect to  $w_{ij}$ **:
 
-   $$  
-   \frac{\partial H}{\partial w_{ij}} = -\frac{1}{\ln 2} \int \frac{\partial z}{\partial w_{ij}} \, dD  
-   $$
+$$
+\frac{\partial H}{\partial w_{ij}} = \frac{dH}{dz}\cdot \frac{\partial z}{\partial w_{ij}} 
+= -\frac{1}{\ln2} \cdot z\,D(1-D) \cdot \frac{\partial z}{\partial w_{ij}}  
+$$
 
 2. **Compute  $ \displaystyle \frac{\partial z}{\partial w_{ij}}$**:
 
@@ -48,19 +48,20 @@ To optimize the model, we need to compute the gradients of the entropy  $H$ with
 
 3. **Substitute and Simplify**:
 
-   $$
-   \frac{\partial H}{\partial w_{ij}} = -\frac{1}{\ln 2} \int x_j \, dD = -\frac{1}{\ln 2} x_j \int dD = -\frac{1}{\ln 2} x_j D
-   $$
+$$
+\frac{\partial H}{\partial w_{ij}} = -\frac{1}{\ln2} \cdot z\,D(1-D) \cdot x_j 
+$$
 
 ### Gradient with Respect to  $G_{ij}$ 
 
-1. **Differentiate  H with Respect to  $G_{ij}$**:
+1. **Differentiate  H with Respect to  $G_{ij}$ **:
 
-   $$
-   \frac{\partial H}{\partial G_{ij}} = -\frac{1}{\ln 2} \int \frac{\partial z}{\partial G_{ij}} \, dD
-   $$
+$$
+\frac{\partial H}{\partial G_{ij}} = \frac{dH}{dz}\cdot \frac{\partial z}{\partial G_{ij}} 
+= -\frac{1}{\ln2} \cdot z\,D(1-D)\cdot \frac{\partial z}{\partial G_{ij}}  
+$$
 
-2. **Compute  $\displaystyle \frac{\partial z}{\partial G_{ij}}$**:
+2. **Compute  $ \displaystyle \frac{\partial z}{\partial G_{ij}}$**:
 
    $$
    \frac{\partial z}{\partial G_{ij}} = x_j
@@ -68,17 +69,19 @@ To optimize the model, we need to compute the gradients of the entropy  $H$ with
 
 3. **Substitute and Simplify**:
 
-   $$
-   \frac{\partial H}{\partial G_{ij}} = -\frac{1}{\ln 2} \int x_j \, dD = -\frac{1}{\ln 2} x_j D
-   $$
+$$
+\frac{\partial H}{\partial G_{ij}} = -\frac{1}{\ln2} \cdot z\,D(1-D)\cdot x_j 
+$$
+
 
 ### Gradient with Respect to  $b_i$
 
 1. **Differentiate  H with Respect to  $b_i$**:
 
-   $$
-   \frac{\partial H}{\partial b_i} = -\frac{1}{\ln 2} \int \frac{\partial z}{\partial b_i} \, dD
-   $$
+$$
+\frac{\partial H}{\partial b_{i}} = \frac{dH}{dz}\cdot \frac{\partial z}{\partial b_{i}} 
+= -\frac{1}{\ln2} \cdot z\,D(1-D)\cdot \frac{\partial z}{\partial b_{i}}  
+$$
 
 2. **Compute  $\displaystyle \frac{\partial z}{\partial b_i}$**:
 
@@ -88,9 +91,10 @@ To optimize the model, we need to compute the gradients of the entropy  $H$ with
 
 3. **Substitute and Simplify**:
 
-   $$
-   \frac{\partial H}{\partial b_i} = -\frac{1}{\ln 2} \int 1 \, dD = -\frac{1}{\ln 2} D
-   $$
+$$
+\frac{\partial H}{\partial b_{i}} = -\frac{1}{\ln2} \cdot z\,D(1-D)
+$$
+
 
 ## Optimization Algorithm
 
@@ -133,7 +137,7 @@ The novel method presented in this article diverges from classical entropy gradi
    - **New Method:**  
      The approach incorporates two sets of parameters ($w_{ij}$) and ($G_{ij}$) in addition to the bias ($b_i$), all contributing additively to the activation ($z$). This dual-parameter structure provides an additional degree of freedom in modeling the system’s response, with gradients given by:
      $$
-     \frac{\partial H}{\partial w_{ij}} = \frac{\partial H}{\partial G_{ij}} = -\frac{1}{\ln 2} x_j D, \quad \frac{\partial H}{\partial b_i} = -\frac{1}{\ln 2} D.
+     \frac{\partial H}{\partial w_{ij}} = \frac{\partial H}{\partial G_{ij}} = -\frac{1}{\ln2} \cdot z\,D(1-D) \cdot x_j, \quad \frac{\partial H}{\partial b_i} = -\frac{1}{\ln2} \cdot z\,D(1-D)
      $$
 
    - **Classical Methods:**  
