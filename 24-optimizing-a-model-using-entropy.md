@@ -35,7 +35,7 @@ To optimize the model, we need to compute the gradients of the entropy  $H$ with
 1. **Differentiate  H with Respect to  $w_{ij}$ **:
 
    $$  
-   \frac{\partial H}{\partial w_{ij}} = -\frac{1}{\ln 2} \int \frac{\partial z}{\partial w_{ij}} \, dD
+   \frac{\partial H}{\partial w_{ij}} = -\frac{1}{\ln 2} \int \frac{\partial z}{\partial w_{ij}} \, dD  
    $$
 
 2. **Compute  $ \displaystyle \frac{\partial z}{\partial w_{ij}}$**:
