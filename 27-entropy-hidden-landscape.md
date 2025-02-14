@@ -22,9 +22,9 @@ Previously, we identified an intersection between:
 
 - **The entropy function:** 
   
-  $$
-  H(z) = \frac{\displaystyle \frac{\ln(1+e^{-z})}{1+e^{-z}} + \frac{\ln(1+e^{z})}{1+e^{z}}}{\ln 2},
-  $$
+$$
+H(z) = \frac{\displaystyle \frac{\ln(1+e^{-z})}{1+e^{-z}} + \frac{\ln(1+e^{z})}{1+e^{z}}}{\ln 2},
+$$
 
 - **The sigmoid function:**  
  
