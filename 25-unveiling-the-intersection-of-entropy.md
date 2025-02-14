@@ -34,9 +34,11 @@ which quantifies uncertainty as a function of the accumulated, structured knowle
 ### 2.2. The Sigmoid Function
 
 The sigmoid function is given by:
+
 $$
 D(z) = \frac{1}{1+e^{-z}},
 $$
+
 which maps $z$ into a decision probability $D$ ranging from 0 to 1.
 
 
