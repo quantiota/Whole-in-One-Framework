@@ -28,9 +28,9 @@ $$
 
 - **The sigmoid function:**  
  
-  $$
-  D(z) = \frac{1}{1+e^{-z}},
-  $$
+$$
+D(z) = \frac{1}{1+e^{-z}},
+$$
 
 occurring approximately at $(z, D(z)) \approx (1.22, 0.77)$. This point signaled a critical threshold between high uncertainty and high decision confidence.
 
@@ -52,15 +52,15 @@ Within the framework, entropy and decision certainty evolve dynamically with the
 
 - **Entropy Function:**
   
-  $$
-  H(z) = \frac{\displaystyle \frac{\ln(1+e^{-z})}{1+e^{-z}} + \frac{\ln(1+e^{z})}{1+e^{z}}}{\ln 2},
-  $$
+$$
+H(z) = \frac{\displaystyle \frac{\ln(1+e^{-z})}{1+e^{-z}} + \frac{\ln(1+e^{z})}{1+e^{z}}}{\ln 2},
+$$
 
 - **Sigmoid Function:**
  
-  $$
-  D(z) = \frac{1}{1+e^{-z}}.
-  $$
+$$
+D(z) = \frac{1}{1+e^{-z}}.
+$$
 
 These functions provide instantaneous measures of uncertainty and decision confidence, respectively.
 
@@ -70,15 +70,15 @@ To capture the cumulative evolution, we define the following integrals:
 
 - **Surface of $H(z)$:**
  
-   $$
-   H_{\text{integral}}(z) = \int H(z)\,dz,
-   $$
+$$
+H_{\text{integral}}(z) = \int H(z)\,dz,
+$$
 
 - **Surface of $D(z)$:**
 
-   $$
-   D_{\text{integral}}(z) = \int D(z)\,dz.
-   $$
+$$
+D_{\text{integral}}(z) = \int D(z)\,dz.
+$$
 
 The **Net Function** is then defined as:
 
