@@ -140,9 +140,10 @@ Traditional techniques, such as those using cross-entropy loss, focus on minimiz
    - **New Method:**  
   
 The approach incorporates two sets of parameters ($w_{ij}$) and ($G_{ij}$) in addition to the bias ($b_i$), all contributing additively to the activation ($z$). This dual-parameter structure provides an additional degree of freedom in modeling the system’s response, with gradients given by:
-     $$
-     \frac{\partial H}{\partial w_{ij}} = \frac{\partial H}{\partial G_{ij}} = -\frac{1}{\ln2} \cdot z\,D(1-D) \cdot x_j, \quad \frac{\partial H}{\partial b_i} = -\frac{1}{\ln2} \cdot z\,D(1-D)
-     $$
+
+$$
+ \frac{\partial H}{\partial w_{ij}} = \frac{\partial H}{\partial G_{ij}} = -\frac{1}{\ln2} \cdot z\,D(1-D) \cdot x_j, \quad \frac{\partial H}{\partial b_i} = -\frac{1}{\ln2} \cdot z\,D(1-D)
+$$
 
    - **Classical Methods:**  
   
