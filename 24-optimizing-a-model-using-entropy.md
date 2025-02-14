@@ -129,44 +129,44 @@ H = \displaystyle -\frac{1}{\ln 2} \int z dD
 $$  
 
 
-     where the integration over the transformed activation $D$ emphasizes the role of uncertainty (or disorder) in the model. The optimization directly minimizes this entropy, capturing the system’s internal state.
+where the integration over the transformed activation $D$ emphasizes the role of uncertainty (or disorder) in the model. The optimization directly minimizes this entropy, capturing the system’s internal state.
 
    - **Classical Methods:**  
   
-     Traditional techniques, such as those using cross-entropy loss, focus on minimizing the divergence between predicted probabilities and actual labels. Here, the gradient is derived from the discrepancy between the output of a sigmoid (or softmax) function and the target values.
+Traditional techniques, such as those using cross-entropy loss, focus on minimizing the divergence between predicted probabilities and actual labels. Here, the gradient is derived from the discrepancy between the output of a sigmoid (or softmax) function and the target values.
 
  **2. Parameter Incorporation:**
 
    - **New Method:**  
   
-     The approach incorporates two sets of parameters ($w_{ij}$) and ($G_{ij}$) in addition to the bias ($b_i$), all contributing additively to the activation ($z$). This dual-parameter structure provides an additional degree of freedom in modeling the system’s response, with gradients given by:
+The approach incorporates two sets of parameters ($w_{ij}$) and ($G_{ij}$) in addition to the bias ($b_i$), all contributing additively to the activation ($z$). This dual-parameter structure provides an additional degree of freedom in modeling the system’s response, with gradients given by:
      $$
      \frac{\partial H}{\partial w_{ij}} = \frac{\partial H}{\partial G_{ij}} = -\frac{1}{\ln2} \cdot z\,D(1-D) \cdot x_j, \quad \frac{\partial H}{\partial b_i} = -\frac{1}{\ln2} \cdot z\,D(1-D)
      $$
 
    - **Classical Methods:**  
   
-     Typically, only one set of weights (and the bias) is optimized, where the gradient reflects the error signal based on the difference between the predicted probability ($\sigma(z)$) and the true label. The parameters are updated to minimize a loss that directly measures prediction error rather than system entropy.
+ Typically, only one set of weights (and the bias) is optimized, where the gradient reflects the error signal based on the difference between the predicted probability ($\sigma(z)$) and the true label. The parameters are updated to minimize a loss that directly measures prediction error rather than system entropy.
 
  **3. Role of the Sigmoid Function:**
 
    - **New Method:**  
   
-     The sigmoid function ($D = \displaystyle \frac{1}{1 + e^{-z}}$) is integrated into the entropy functional, ensuring that the gradients capture the full influence of the activation’s distribution on the entropy. This integration provides a direct measure of how changes in the parameters affect the system's uncertainty.
+The sigmoid function ($D = \displaystyle \frac{1}{1 + e^{-z}}$) is integrated into the entropy functional, ensuring that the gradients capture the full influence of the activation’s distribution on the entropy. This integration provides a direct measure of how changes in the parameters affect the system's uncertainty.
 
    - **Classical Methods:**  
   
-     In conventional settings, the sigmoid is used primarily to convert the linear combination of inputs into probabilities. The gradient with respect to the loss (e.g., cross-entropy) involves terms like ($\sigma(z) - y$), which primarily reflect prediction errors rather than a broader measure of system uncertainty.
+In conventional settings, the sigmoid is used primarily to convert the linear combination of inputs into probabilities. The gradient with respect to the loss (e.g., cross-entropy) involves terms like ($\sigma(z) - y$), which primarily reflect prediction errors rather than a broader measure of system uncertainty.
 
  **4. Conceptual Focus:**
 
    - **New Method:**  
   
-     The focus is on optimizing the entropy, which can lead to more adaptable and robust learning, particularly in scenarios where capturing the inherent uncertainty is crucial. This method provides a direct mechanism for tuning model parameters based on how they influence the overall disorder of the system.
+The focus is on optimizing the entropy, which can lead to more adaptable and robust learning, particularly in scenarios where capturing the inherent uncertainty is crucial. This method provides a direct mechanism for tuning model parameters based on how they influence the overall disorder of the system.
 
    - **Classical Methods:**  
   
-     The conventional approach focuses on aligning the model's predictions with the target labels, where the gradient is driven by minimizing a discrepancy between two probability distributions. This can be effective in many settings but may not fully exploit the underlying uncertainty in the data.
+The conventional approach focuses on aligning the model's predictions with the target labels, where the gradient is driven by minimizing a discrepancy between two probability distributions. This can be effective in many settings but may not fully exploit the underlying uncertainty in the data.
 
 
 
