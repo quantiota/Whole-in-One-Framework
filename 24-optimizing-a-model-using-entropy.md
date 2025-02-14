@@ -40,11 +40,11 @@ $$
 = -\frac{1}{\ln2} \cdot z\,D(1-D) \cdot \frac{\partial z}{\partial w_{ij}}  
 $$
 
-2. **Compute  $ \displaystyle \frac{\partial z}{\partial w_{ij}}$**:
+2. **Compute  $\displaystyle \frac{\partial z}{\partial w_{ij}}$**:
 
-   $$
+$$
    \frac{\partial z}{\partial w_{ij}} = x_j
-   $$
+$$
 
 3. **Substitute and Simplify**:
 
