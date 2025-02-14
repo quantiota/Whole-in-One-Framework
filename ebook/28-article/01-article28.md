@@ -67,9 +67,11 @@ Before the learning process begins, the raw inputs $x_j$ and associated paramete
 
 - **Facilitating Transition Analysis:**  
   Once in the $z$-domain, the net function
+
   $$
   S(z) = \int \Bigl(D(z) - H(z)\Bigr)dz
   $$
+  
   can be computed reliably. By examining both the minimum of $S(z)$ and its subsequent zero-crossing (e.g., where $S(z)=0$), we can detect key transition points that mark the shift from high uncertainty to a state of structured, confident decision-making.
 
 ### 3.2. Rearrangement, Not Constraint
