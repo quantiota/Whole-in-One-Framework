@@ -114,7 +114,6 @@ $$
 
 where  $\eta$ is the learning rate.
 
-
 ## Comparison with Classical Entropy Gradient Approaches
 
 The novel method presented in this article diverges from classical entropy gradient techniques in several key ways. The following points summarize the differences and the potential benefits of the new approach:
@@ -161,6 +160,11 @@ $$
 
    - **Classical Methods:**  
      The conventional approach focuses on aligning the model's predictions with the target labels, where the gradient is driven by minimizing a discrepancy between two probability distributions. This can be effective in many settings but may not fully exploit the underlying uncertainty in the data.
+
+
+
+
+
 
 In summary, while both the new and classical methods utilize gradient-based optimization, the new approach emphasizes the minimization of a defined entropy functional. This offers a fresh perspective by directly integrating uncertainty into the optimization process, potentially enhancing model performance in environments where traditional error-based methods might overlook subtle but significant dynamics.
 
