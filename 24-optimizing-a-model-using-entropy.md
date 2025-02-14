@@ -61,11 +61,11 @@ $$
 = -\frac{1}{\ln2} \cdot z\,D(1-D)\cdot \frac{\partial z}{\partial G_{ij}}  
 $$
 
-2. **Compute  $ \displaystyle \frac{\partial z}{\partial G_{ij}}$**:
+2. **Compute  $\displaystyle \frac{\partial z}{\partial G_{ij}}$**:
 
-   $$
+$$
    \frac{\partial z}{\partial G_{ij}} = x_j
-   $$
+$$
 
 3. **Substitute and Simplify**:
 
@@ -85,9 +85,9 @@ $$
 
 2. **Compute  $\displaystyle \frac{\partial z}{\partial b_i}$**:
 
-   $$
+$$
    \frac{\partial z}{\partial b_i} = 1
-   $$
+$$
 
 3. **Substitute and Simplify**:
 
