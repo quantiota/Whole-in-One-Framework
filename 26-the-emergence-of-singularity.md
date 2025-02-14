@@ -23,17 +23,21 @@ In this unified view, the entropy function $H(z)$ decreases as knowledge accumul
 ### 2.1. The Entropy Function $H(z)$
 
 Within the Whole-in-One Framework, entropy is redefined as a dynamic function of accumulated, structured knowledge $z$. One formulation used to model this is:
+
 $$
 H(z) = \frac{\displaystyle \frac{\ln(1+e^{-z})}{1+e^{-z}} + \displaystyle \frac{\ln(1+e^{z})}{1+e^{z}}}{\ln 2}.
 $$
+
 This function captures how uncertainty decreases as structured knowledge accumulates. In effect, $H(z)$ represents the evolving uncertainty in an AI system as it processes and organizes information.
 
 ### 2.2. The Sigmoid Function $D(z)$
 
 The sigmoid function is given by:
+
 $$
 D(z) = \frac{1}{1+e^{-z}},
 $$
+
 and serves as a mapping from the knowledge parameter $z$ to a decision probability $D$ that ranges between 0 (total uncertainty) and 1 (total certainty). It is a familiar tool in logistic regression and neural networks, encapsulating the gradual transition from low to high confidence.
 
 
@@ -43,9 +47,11 @@ and serves as a mapping from the knowledge parameter $z$ to a decision probabili
 ### 3.1. Identifying the Intersection
 
 When we plot both $H(z)$ and $D(z)$ over a range of $z$ values, we find that the curves intersect at approximately:
+
 $$
 (z, D(z)) \approx (1.22, 0.77).
 $$
+
 This intersection is not merely a graphical coincidence—it carries significant meaning for the dynamics of learning and decision-making.
 
 ### 3.2. Interpreting the Singularity
