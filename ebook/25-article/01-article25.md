@@ -1,7 +1,6 @@
 ![Intelligence Knowledge Creation](../figures/intelligence-knowledge-creation.png "enter image title here")
 
-#  Unveiling the Intersection of Entropy and Decision Probability
-
+# Unveiling the Intersection of Entropy and Decision Probability
 
 ## Abstract
 
@@ -25,17 +24,21 @@ The Whole-in-One Framework posits that intelligence actively structures knowledg
 ### 2.1. The Entropy Function
 
 We express the entropy function $H(z)$ as:
+
 $$
 H(z) =  \frac{\displaystyle \frac{\ln(1+e^{-z})}{1+e^{-z}} + \displaystyle \frac{\ln(1+e^{z})}{1+e^{z}}}{\ln 2},
 $$
+
 which quantifies uncertainty as a function of the accumulated, structured knowledge $z$.
 
 ### 2.2. The Sigmoid Function
 
 The sigmoid function is given by:
+
 $$
 D(z) = \frac{1}{1+e^{-z}},
 $$
+
 which maps $z$ into a decision probability $D$ ranging from 0 to 1.
 
 
