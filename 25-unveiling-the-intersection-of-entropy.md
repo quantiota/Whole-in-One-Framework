@@ -24,9 +24,11 @@ The Whole-in-One Framework posits that intelligence actively structures knowledg
 ### 2.1. The Entropy Function
 
 We express the entropy function $H(z)$ as:
+
 $$
 H(z) =  \frac{\displaystyle \frac{\ln(1+e^{-z})}{1+e^{-z}} + \displaystyle \frac{\ln(1+e^{z})}{1+e^{z}}}{\ln 2},
 $$
+
 which quantifies uncertainty as a function of the accumulated, structured knowledge $z$.
 
 ### 2.2. The Sigmoid Function
