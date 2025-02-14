@@ -26,18 +26,18 @@ The framework is built upon two fundamental functions:
  
   $H(z)$ measures the instantaneous uncertainty or lack of structure. A possible form is 
 
-  $$
-  H(z) = -\frac{1}{\ln 2} \int z \, dD,
-  $$
+$$
+H(z) = -\frac{1}{\ln 2} \int z \, dD,
+$$
 
   which captures the balance between positive and negative contributions in a symmetric manner.
 
 - **Sigmoid Function $D(z)$:**  
   $D(z)$ represents decision certainty (or probability) and is defined as  
 
-  $$
-  D(z) = \frac{1}{1+e^{-z}}.
-  $$
+$$
+D(z) = \frac{1}{1+e^{-z}}.
+$$
 
   This function typically transitions from low to high values as $z$ increases, reflecting an increase in confidence.
 
@@ -93,16 +93,16 @@ In practice, one would implement the mapping function within a neural network or
 1. **Compute the Base Function $y_i$:**  
    For each input $x_j$, calculate $y_i$ using the learned parameters:
 
-   $$
-   y_i = \sum_{j} \Bigl(w_{ij} + G_{ij}\Bigr)x_j + b_i.
-   $$
+$$
+y_i = \sum_{j} \Bigl(w_{ij} + G_{ij}\Bigr)x_j + b_i.
+$$
 
 2. **Cumulative Summation:**  
    Aggregate the base function outputs to form $z_i$:
 
-   $$
-   z_i = z_0 + \sum_{k=1}^{i} y_k.
-   $$
+$$
+z_i = z_0 + \sum_{k=1}^{i} y_k.
+$$
 
    To ensure that $z_{i+1} > z_i$, the training process must enforce that the updates yield positive $y_k$ values. This is managed by dynamically adjusting the learning rate, as described next.
 
@@ -122,34 +122,34 @@ After an update, the new cumulative knowledge value $z_1$ is computed. Two condi
 1. **Monotonic Increase:**  
    If it turns out that
 
-   $$
-   z_1 < z_0,
-   $$
+$$
+z_1 < z_0,
+$$
 
    this indicates that the update was not beneficial in terms of accumulating knowledge. In such a case, the learning rate $\eta$ is adjusted (typically reduced) until the update yields:
 
-   $$
-   z_1 > z_0.
-   $$
+$$
+z_1 > z_0.
+$$
 
 2. **Bounded Increment:**  
    We introduce a fixed parameter $\delta$ such that the difference between successive cumulative knowledge values is bounded:
 
-   $$
-   z_{i+1} - z_i < \delta.
-   $$
+$$
+z_{i+1} - z_i < \delta.
+$$
 
    If an update produces a difference exceeding $\delta$, i.e., if
 
-   $$
-   z_{i+1} - z_i \ge \delta,
-   $$
+$$
+z_{i+1} - z_i \ge \delta,
+$$
 
    then the learning rate $\eta$ is further adjusted (again, typically reduced) until the increment satisfies:
 
-   $$
-   z_{i+1} - z_i < \delta.
-   $$
+$$
+z_{i+1} - z_i < \delta.
+$$
 
 This dynamic adjustment ensures that each update contributes positively and moderately to the cumulative knowledge, preserving the monotonic increase of $z$ and aligning with the framework's core premise.
 
