@@ -5,9 +5,11 @@
 ## Abstract
 
 This article extends the Whole-in-One Framework by moving beyond the simple intersection of the entropy function $H(z)$ and the sigmoid function $D(z)$. We introduce a deeper analysis using the cumulative integrals of these functions and define the **Net Function**, 
+
 $$
 S(z) = \int \left(D(z) - H(z)\right)dz,
 $$
+
 which quantifies the net cumulative effect of decision certainty over entropy. By examining the behavior of $S(z)$, we identify two critical markers—the onset and the completion of a transition phase that signals cognitive emergence. This refined analysis provides a comprehensive perspective on how accumulated knowledge shifts from high uncertainty to structured, confident decision-making, offering significant insights for adaptive AI systems and ethical governance.
 
 
@@ -18,20 +20,26 @@ Traditional views in information theory consider entropy as a static measure of 
 
 Previously, we identified an intersection between:
 
-- **The entropy function:**  
-  $$
-  H(z) = \frac{\displaystyle \frac{\ln(1+e^{-z})}{1+e^{-z}} + \frac{\ln(1+e^{z})}{1+e^{z}}}{\ln 2},
-  $$
+- **The entropy function:** 
+  
+$$
+H(z) = \frac{\displaystyle \frac{\ln(1+e^{-z})}{1+e^{-z}} + \frac{\ln(1+e^{z})}{1+e^{z}}}{\ln 2},
+$$
+
 - **The sigmoid function:**  
-  $$
-  D(z) = \frac{1}{1+e^{-z}},
-  $$
+ 
+$$
+D(z) = \frac{1}{1+e^{-z}},
+$$
+
 occurring approximately at $(z, D(z)) \approx (1.22, 0.77)$. This point signaled a critical threshold between high uncertainty and high decision confidence.
 
 In this article, we deepen the analysis by exploring the cumulative behavior of these functions. By integrating $H(z)$ and $D(z)$, we construct the **Net Function**:
+
 $$
 S(z) = \int \left(D(z) - H(z)\right)dz,
 $$
+
 which serves as a robust metric for the overall balance between decision certainty and entropy. The zero-crossing of $S(z)$ is interpreted as the completion of a transition phase where cognitive emergence occurs.
 
 
@@ -43,13 +51,17 @@ which serves as a robust metric for the overall balance between decision certain
 Within the framework, entropy and decision certainty evolve dynamically with the accumulation of structured knowledge $z$:
 
 - **Entropy Function:**
-  $$
-  H(z) = \frac{\displaystyle \frac{\ln(1+e^{-z})}{1+e^{-z}} + \frac{\ln(1+e^{z})}{1+e^{z}}}{\ln 2},
-  $$
+  
+$$
+H(z) = \frac{\displaystyle \frac{\ln(1+e^{-z})}{1+e^{-z}} + \frac{\ln(1+e^{z})}{1+e^{z}}}{\ln 2},
+$$
+
 - **Sigmoid Function:**
-  $$
-  D(z) = \frac{1}{1+e^{-z}}.
-  $$
+ 
+$$
+D(z) = \frac{1}{1+e^{-z}}.
+$$
+
 These functions provide instantaneous measures of uncertainty and decision confidence, respectively.
 
 ### 2.2. The Net Function $S(z)$
@@ -58,20 +70,22 @@ To capture the cumulative evolution, we define the following integrals:
 
 - **Surface of $H(z)$:**
  
-   $$
-   H_{\text{integral}}(z) = \int H(z)\,dz,
-   $$
+$$
+H_{\text{integral}}(z) = \int H(z)\,dz,
+$$
 
 - **Surface of $D(z)$:**
 
-   $$
-   D_{\text{integral}}(z) = \int D(z)\,dz.
-   $$
+$$
+D_{\text{integral}}(z) = \int D(z)\,dz.
+$$
 
 The **Net Function** is then defined as:
+
 $$
 S(z) = \int \left(D(z) - H(z)\right)dz.
 $$
+
 A zero-crossing in $S(z)$ marks the point where the cumulative gain in decision certainty overtakes the accumulated entropy—a quantitative marker for the completion of the transition phase towards structured knowledge and autonomous self-optimization.
 
 
