@@ -124,8 +124,11 @@ The novel method presented in this article diverges from classical entropy gradi
    - **New Method:**  
    - 
      The entropy is defined directly as a functional,  
-     
-$$H = \displaystyle -\frac{1}{\ln 2} \int z dD$$  
+
+$$
+H = \displaystyle -\frac{1}{\ln 2} \int z dD
+$$  
+
 
      where the integration over the transformed activation $D$ emphasizes the role of uncertainty (or disorder) in the model. The optimization directly minimizes this entropy, capturing the system’s internal state.
 
