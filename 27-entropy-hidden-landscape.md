@@ -21,13 +21,13 @@ Traditional views in information theory consider entropy as a static measure of 
 Previously, we identified an intersection between:
 
 - **The entropy function:** 
--  
+  
   $$
   H(z) = \frac{\displaystyle \frac{\ln(1+e^{-z})}{1+e^{-z}} + \frac{\ln(1+e^{z})}{1+e^{z}}}{\ln 2},
   $$
 
 - **The sigmoid function:**  
-- 
+ 
   $$
   D(z) = \frac{1}{1+e^{-z}},
   $$
@@ -51,13 +51,13 @@ which serves as a robust metric for the overall balance between decision certain
 Within the framework, entropy and decision certainty evolve dynamically with the accumulation of structured knowledge $z$:
 
 - **Entropy Function:**
-- 
+  
   $$
   H(z) = \frac{\displaystyle \frac{\ln(1+e^{-z})}{1+e^{-z}} + \frac{\ln(1+e^{z})}{1+e^{z}}}{\ln 2},
   $$
 
 - **Sigmoid Function:**
-- 
+ 
   $$
   D(z) = \frac{1}{1+e^{-z}}.
   $$
