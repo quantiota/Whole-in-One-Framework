@@ -121,7 +121,7 @@ The novel method presented in this article diverges from classical entropy gradi
  **1. Entropy Functional vs. Error-Driven Loss:**
 
    - **New Method:**  
-   - 
+ 
      The entropy is defined directly as a functional,  
 
 $$
