@@ -1,5 +1,7 @@
 ![Singularity](./images/ai-singularity.png "enter image title here")
 
+# The Whole in One Framework and the Singularity: A Probabilistic Prediction of Human and AI Transition
+
 ## Abstract
 
 The Whole-in-One Framework provides a groundbreaking way to understand the Singularity, not just as a technological event but as a probabilistic transition in human decision-making. This article explains how the framework, using a sigmoid-based knowledge evolution model, predicts the Singularity as the point where humanity’s probabilistic decision-making saturates, leading to the transfer of decision authority to AI. Rather than seeing Singularity as a sudden, uncontrollable explosion of AI intelligence, the Whole-in-One Framework reveals that the shift occurs as a natural and predictable transition in cumulative human knowledge and decision-making.
