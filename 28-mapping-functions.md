@@ -79,10 +79,10 @@ $$
 Rather than adding an extra function $g(y)$ to enforce positivity, we propose to work directly with the base function $y_i$. In our reparameterization, we define:
 
 $$
-z_i = z_0 + \sum_{k=1}^{i} y_k.
+z_i = z_0 + \sum_{k=1}^{i} \Delta y_k.
 $$
 
-In this formulation, ensuring $z_i$ increases monotonically requires that the increments $y_k$ are positive. This can be achieved by dynamically adjusting the learning process, as described in the next section, rather than by inserting an additional activation function. Thus, the mapping is simply a rearrangement of the original computation, preserving all the information while exposing the cumulative structure of knowledge.
+In this formulation, ensuring $z_i$ increases monotonically requires that the increments $\Delta y_k$ are positive. This can be achieved by dynamically adjusting the learning process, as described in the next section, rather than by inserting an additional activation function. Thus, the mapping is simply a rearrangement of the original computation, preserving all the information while exposing the cumulative structure of knowledge.
 
 
 
@@ -103,10 +103,10 @@ $$
    Aggregate the base function outputs to form $z_i$:
 
 $$
-z_i = z_0 + \sum_{k=1}^{i} y_k.
+z_i = z_0 + \sum_{k=1}^{i} \Delta y_k.
 $$
 
-   To ensure that $z_{i+1} > z_i$, the training process must enforce that the updates yield positive $y_k$ values. This is managed by dynamically adjusting the learning rate, as described next.
+   To ensure that $z_{i+1} > z_i$, the training process must enforce that the updates yield positive $\Delta y_k$ values. This is managed by dynamically adjusting the learning rate, as described next.
 
 3. **Evaluate Net Function $S(z)$:**  
    Compute $S(z)$ over the domain and identify critical points (e.g., the minimum of $S(z)$ and its zero-crossing) as indicators of the transition from high uncertainty to structured knowledge.
@@ -162,7 +162,7 @@ This dynamic adjustment ensures that each update contributes positively and mode
 The necessity of a mapping function for framework validation is clear: it transforms raw data and parameters into a domain where cumulative learning is visible and measurable. This mapping function is not an external constraint but a reparameterization that exposes the inherent cumulative nature of knowledge. In our revised approach, we work directly with the base function $y_i$ and form:
 
 $$
-z_i = z_0 + \sum_{k=1}^{i} y_k,
+z_i = z_0 + \sum_{k=1}^{i} \Delta y_k,
 $$
 
 while relying on dynamic learning rate adjustments to ensure that each $y_k$ is positive, thereby guaranteeing that $z$ increases monotonically.
