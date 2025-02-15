@@ -165,7 +165,7 @@ $$
 z_i = z_0 + \sum_{k=1}^{i} \Delta y_k,
 $$
 
-while relying on dynamic learning rate adjustments to ensure that each $y_k$ is positive, thereby guaranteeing that $z$ increases monotonically.
+while relying on dynamic learning rate adjustments to ensure that each $\Delta y_k$ is positive, thereby guaranteeing that $z$ increases monotonically.
 
 By monitoring the evolution of $z$ and computing the net function
 
