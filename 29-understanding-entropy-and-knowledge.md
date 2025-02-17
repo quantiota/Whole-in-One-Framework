@@ -45,9 +45,7 @@ This equation gives the output of the model, $z_{k}$, for a given input.
 
 Entropy, $H(z)$, is a measure of the uncertainty or lack of structure in the model’s predictions. It is computed based on the output of the neural network at each forward pass. For a given output $z_k$, the entropy can be calculated as follows:
 
-$$
-H(z)|_k = - \frac{1}{\ln 2} \sum_{f=1}^{k} \left( z_f \, \Delta D_f \right)
-$$
+
 
 Where:
 
@@ -72,6 +70,10 @@ The **[z-domain](https://blog.quantiota.ai/page/32/mapping-functions-as-a-key-to
 
 $$
 z_k = z_0 + \sum_{f=1}^{k} \Delta y_f
+$$
+
+$$
+H(z)|_k = - \frac{1}{\ln 2} \sum_{f=1}^{k} \left( z_f \, \Delta D_f \right)
 $$
 
 Where:
