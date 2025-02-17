@@ -87,6 +87,8 @@ To ensure that the knowledge accumulation process is smooth and controlled, we i
 2. A **bounded increment**, meaning that the change in knowledge between successive steps is controlled to avoid sudden jumps in knowledge accumulation.
 
 This dynamic adjustment helps ensure that the [network's learning process](https://blog.quantiota.ai/page/28/optimizing-a-model-using-entropy-a-novel-approach/) is gradual and consistent:
+
+
 $$
  \frac{\partial H(z)}{\partial z}|_k = - \frac{1}{\ln 2}  z_k\, D_k \left(1 - D_k \right)
 $$
