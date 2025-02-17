@@ -49,7 +49,6 @@ $$
 H(z)|_k = - \frac{1}{\ln 2} \sum_{f=1}^{k} \left( z_f \, \Delta D_f \right)
 $$
 
-
 Where:
 
 - $z_f$ represents the output at step $f$,
