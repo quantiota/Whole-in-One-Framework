@@ -69,17 +69,21 @@ Before the learning process begins, the raw inputs $x_j$ and associated paramete
 
 - **Facilitating Transition Analysis:**  
   Once in the $z$-domain, the net function
+  
   $$
   S(z) = \int \Bigl(D(z) - H(z)\Bigr)dz
   $$
+
   can be computed reliably. By examining both the minimum of $S(z)$ and its subsequent zero-crossing (e.g., where $S(z)=0$), we can detect key transition points that mark the shift from high uncertainty to a state of structured, confident decision-making.
 
 ### 3.2. Rearrangement, Not Constraint
 
 Rather than adding an extra function $g(y)$ to enforce positivity, we propose to work directly with the base function $y_i$. In our reparameterization, we define:
+
 $$
 z_i = z_0 + \sum_{k=1}^{i} \Delta y_k.
 $$
+
 In this formulation, ensuring $z_i$ increases monotonically requires that the increments $\Delta y_k$ are positive. This can be achieved by dynamically adjusting the learning process, as described in the next section, rather than by inserting an additional activation function. Thus, the mapping is simply a rearrangement of the original computation, preserving all the information while exposing the cumulative structure of knowledge.
 
 
