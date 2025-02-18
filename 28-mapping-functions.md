@@ -26,9 +26,9 @@ The framework is built upon two fundamental functions:
    
   $H(z)$ measures the instantaneous uncertainty or lack of structure. A possible form is 
 
-  $$
-  H(z) = -\frac{1}{\ln 2} \int z \, dD,
-  $$
+$$
+H(z) = -\frac{1}{\ln 2} \int z \, dD,
+$$
 
   which captures the balance between positive and negative contributions in a symmetric manner.
 
@@ -37,9 +37,9 @@ The framework is built upon two fundamental functions:
 
   $D(z)$ represents decision certainty (or probability) and is defined as 
 
-  $$
-  D(z) = \frac{1}{1+e^{-z}}.
-  $$
+$$
+D(z) = \frac{1}{1+e^{-z}}.
+$$
 
   This function typically transitions from low to high values as $z$ increases, reflecting an increase in confidence.
 
@@ -50,6 +50,7 @@ To capture the cumulative dynamics, we define the **Net Function**:
 $$
 S(z) = \int \Bigl(D(z) - H(z)\Bigr)dz.
 $$
+
 The zero-crossing of $S(z)$ provides a quantitative marker for the transition from high entropy (unstructured knowledge) to low entropy (structured knowledge). Moreover, by analyzing both the minimum of $S(z)$ and its zero-crossing, we obtain clear, measurable points that indicate key transitions in the learning process.
 
 
