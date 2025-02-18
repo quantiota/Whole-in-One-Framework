@@ -22,23 +22,31 @@ To validate this framework, it is essential to map diverse raw data into a commo
 
 The framework is built upon two fundamental functions:
 
-- **Entropy Function $H(z)$:**  
-  $H(z)$ measures the instantaneous uncertainty or lack of structure. A possible form is  
+- **Entropy Function $H(z)$:** 
+   
+  $H(z)$ measures the instantaneous uncertainty or lack of structure. A possible form is 
+
   $$
   H(z) = -\frac{1}{\ln 2} \int z \, dD,
   $$
+
   which captures the balance between positive and negative contributions in a symmetric manner.
 
 - **Sigmoid Function $D(z)$:**  
-  $D(z)$ represents decision certainty (or probability) and is defined as  
+
+
+  $D(z)$ represents decision certainty (or probability) and is defined as 
+
   $$
   D(z) = \frac{1}{1+e^{-z}}.
   $$
+
   This function typically transitions from low to high values as $z$ increases, reflecting an increase in confidence.
 
 ### 2.2. The Net Function and Transition Phases
 
 To capture the cumulative dynamics, we define the **Net Function**:
+
 $$
 S(z) = \int \Bigl(D(z) - H(z)\Bigr)dz.
 $$
