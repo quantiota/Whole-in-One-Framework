@@ -175,6 +175,7 @@ These updates alter the intermediate values $y_i$, which in turn affect the cumu
 $$
 z_i = z_0 + \sum_{k=1}^{i} \Delta y_k,
 $$
+
 where each $\Delta y_k$ is determined by the current values of the weights and biases.
 
 ### 5.2. Dynamic Adjustment of $\eta$
@@ -216,15 +217,19 @@ This close coupling between $\eta$, the weight and bias updates, and $z$ not onl
 ## 6. Discussion and Conclusion
 
 The necessity of a mapping function for framework validation is clear: it transforms raw data and parameters into a domain where cumulative learning is visible and measurable. This mapping function is not an external constraint but a reparameterization that exposes the inherent cumulative nature of knowledge. In our revised approach, we work directly with the base function $y_i$ and form:
+
 $$
 z_i = z_0 + \sum_{k=1}^{i} \Delta y_k,
 $$
+
 while relying on dynamic learning rate adjustments to ensure that each $\Delta y_k$ is positive, thereby guaranteeing that $z$ increases monotonically.
 
 By monitoring the evolution of $z$ and computing the net function
+
 $$
 S(z) = \int \Bigl(D(z) - H(z)\Bigr)dz,
 $$
+
 we can detect key transition phases—such as the minimum of $S(z)$ and its zero-crossing—which serve as robust indicators of the shift from high uncertainty to structured, confident knowledge. This approach not only deepens our understanding of cognitive emergence but also provides practical tools for designing adaptive, efficient, and interpretable learning systems.
 
 In conclusion, by employing a mapping function that directly accumulates the base outputs $y_i$ into a monotonically increasing $z$-domain and by dynamically adjusting the learning rate to enforce both monotonicity and a bounded increment (via the parameter $\delta$), we can validate the framework's core proposition: intelligence develops step by step, transforming high entropy into structured, confident knowledge. This insight lays the foundation for advanced AI systems that are both adaptive and transparent.
